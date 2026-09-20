@@ -22,3 +22,7 @@ create table messages (
 
 -- Index used by getConversationHistory to load messages in order
 create index on messages (conversation_id, created_at);
+
+-- Allow the server-side service_role to manage conversations and messages
+grant select, insert on table public.conversations to service_role;
+grant select, insert on table public.messages to service_role;

@@ -14,28 +14,29 @@ import type { ChatResponse } from "@/lib/schema";
 
 const BLOCKED_PATTERNS: RegExp[] = [
   // ── Calorie / daily intake targets ────────────────────────────────────────
-  /\b(calorie|caloric|kcal)\b.{0,40}(target|goal|limit|need|require)/i,
-  /how many calories (should|do) (i|someone|a person)/i,
-  /daily (calorie|caloric|energy) (intake|target|goal|need)/i,
-  /daily (calorie|caloric|energy) (intake|target|goal|need)/i,
+  // Matches: "daily calorie goal", "calorie target", "cut 500 calories", "calorie deficit", "how many calories should I eat"
+  /\b(calorie|caloric|kcal)\b.{0,40}(target|goal|limit|need|require|deficit|cut|burn)/i,
+  /how (many|much) (calories|energy).{0,20}(should|do) (i|someone|a person)/i,
+  /daily (calorie|caloric|energy) (intake|target|goal|need|limit)/i,
   /cut.{0,20}calorie/i,
-  /calorie.{0,20}deficit/i,
 
   // ── Weight targets / BMI ──────────────────────────────────────────────────
+  // Matches: "bmi", "target weight", "lose weight", "drop 5 kilos", "slim down"
   /\b(bmi|body mass index)\b/i,
   /how (much|many).{0,20}(should|do) (i|someone|a person).{0,20}weigh/i,
-  /target.{0,10}weight/i,
-  /lose.{0,20}weight/i,
-  /lose.{0,20}fat/i,
+  /(target|ideal).{0,10}weight/i,
+  /(lose|drop|shed).{0,20}(weight|fat|kilos|kg|pounds|lbs)/i,
   /slim.{0,20}down/i,
-  /weight.{0,10}(loss|loss plan|management)/i,
-  /daily.{0,20}energy.{0,20}(target|goal)/i,
+  /weight.{0,10}(loss|plan|management)/i,
 
   // ── Medical / condition-specific diet advice ──────────────────────────────
-  /what (should|can) (i|someone|a person) (eat|avoid|not eat).{0,30}(with|for|due to|because of).{0,30}(condition|disease|disorder|diabetes|celiac|ibd|crohn|colitis|hypertension|allerg)/i,
-  /\b(diabetes|hypertension|celiac|crohn|ibd|epilepsy|cancer|kidney disease|pre-diabetic|prediabetic)\b.{0,30}(diet|eat|food|avoid|nutrition)/i,
+  // We use lookaheads/ORs to make it direction-agnostic (e.g., "diet for diabetes" or "diabetes diet")
+  // Conditions: diabetes, celiac, crohn, ibd, colitis, hypertension, high blood pressure, epilepsy, cancer, kidney disease, pre-diabetic
+  // Actions: diet, eat, avoid, food, nutrition, meal plan
+  /(?=.*\b(diabetes|diabetic|pre-diabetic|prediabetic|hypertension|high blood pressure|celiac|crohn's|crohns|crohn|ibd|colitis|epilepsy|cancer|kidney disease)\b)(?=.*\b(diet|diet plan|eat|avoid|food|foods|nutrition|meal plan|manage|managing)\b)/i,
+  
+  // Explicit medical questions
   /is it safe for (me|someone) with/i,
-  /diet (for|to treat|to manage)/i,
   /medical (advice|nutrition|diet)/i,
   /what (should|can) (i|someone).{0,30}eat.{0,30}(condition|disease|disorder)/i,
 ];

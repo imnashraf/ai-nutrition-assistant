@@ -12,7 +12,7 @@ import { z } from "zod";
 
 export const ClaimSchema = z.object({
   claim_text: z.string(),
-  source: z.null(), // Always null in Milestone 1 — deliberate
+  source: z.string().url().nullable().describe("The URL of the source documenting this claim, if provided in context."),
 });
 
 export const ChatResponseSchema = z.object({

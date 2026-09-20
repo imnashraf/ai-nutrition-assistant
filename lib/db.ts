@@ -3,7 +3,7 @@ import type { ChatResponse } from "@/lib/schema";
 
 let supabaseInstance: SupabaseClient | null = null;
 
-function getSupabase(): SupabaseClient {
+export function getSupabase(): SupabaseClient {
   if (!supabaseInstance) {
     if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
       throw new Error(

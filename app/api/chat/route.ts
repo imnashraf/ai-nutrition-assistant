@@ -4,6 +4,7 @@ import { isScopeViolation, DECLINE_RESPONSE } from "@/lib/scopeGuard";
 import { ChatResponseSchema } from "@/lib/schema";
 import { SYSTEM_PROMPT } from "@/lib/systemPrompt";
 import { aiProvider, GroqProviderError } from "@/lib/ai";
+import { retrieveContext } from "@/lib/retrieval";
 import {
   createConversation,
   conversationExists,
@@ -149,10 +150,15 @@ export async function POST(req: NextRequest) {
   // ── 7. Call AI provider ────────────────────────────────────────────────────
   let rawModelOutput: unknown;
   try {
+    const contextStr = await retrieveContext(trimmedMessage);
+    const finalSystemPrompt = contextStr 
+      ? `${SYSTEM_PROMPT}\n\n${contextStr}`
+      : SYSTEM_PROMPT;
+
     rawModelOutput = await aiProvider.generateResponse(
       history,
       trimmedMessage,
-      SYSTEM_PROMPT
+      finalSystemPrompt
     );
   } catch (err) {
     if (err instanceof GroqProviderError) {
