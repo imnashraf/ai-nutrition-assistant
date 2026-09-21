@@ -13,7 +13,6 @@ export async function retrieveContext(query: string): Promise<string> {
     }
 
     const output = await extractor(query, { pooling: "mean", normalize: true });
-    // Convert Float32Array to standard array
     const embedding = Array.from(output.data);
 
     // 2. Query Supabase vector store
@@ -39,7 +38,7 @@ export async function retrieveContext(query: string): Promise<string> {
     return data
       .map(
         (doc: any) =>
-          `<document source="${doc.metadata?.source || "unknown"}">\n${
+          `<document title="${doc.metadata?.title || "Unknown"}" url="${doc.metadata?.url || ""}" publisher="${doc.metadata?.publisher || ""}">\n${
             doc.content
           }\n</document>`
       )

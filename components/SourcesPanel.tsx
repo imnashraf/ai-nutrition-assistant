@@ -19,7 +19,7 @@ export default function SourcesPanel({ claims }: { claims: Claim[] }) {
             {claims.map((claim, i) => (
               <li key={i} className="text-xs text-gray-600 border rounded-lg p-3 bg-gray-50">
                 <p>{claim.claim_text}</p>
-                {claim.source && (
+                {claim.source && typeof claim.source === 'string' ? (
                   <a
                     href={claim.source}
                     className="text-blue-500 hover:underline mt-1 block truncate"
@@ -28,6 +28,26 @@ export default function SourcesPanel({ claims }: { claims: Claim[] }) {
                   >
                     {claim.source}
                   </a>
+                ) : claim.source && (
+                  <div className="mt-2 text-[10px] text-gray-500 border-t pt-2">
+                    <div className="font-semibold">{claim.source.title}</div>
+                    <div className="flex items-center gap-1 mt-0.5">
+                      <span className="text-gray-400">{claim.source.publisher}</span>
+                      {claim.source.url && (
+                        <>
+                          <span className="text-gray-300">•</span>
+                          <a
+                            href={claim.source.url}
+                            className="text-blue-500 hover:underline truncate"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Source Link
+                          </a>
+                        </>
+                      )}
+                    </div>
+                  </div>
                 )}
               </li>
             ))}

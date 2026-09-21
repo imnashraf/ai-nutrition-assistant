@@ -38,35 +38,35 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const CORPUS = [
   {
     content: "The U.S. Institute of Medicine sets the Recommended Dietary Allowance (RDA) for iron at 18 mg per day for adult women aged 19–50. After menopause (age 51 and older), the RDA drops to 8 mg per day because menstrual losses cease. During pregnancy, the RDA rises to 27 mg per day.",
-    metadata: { source: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", title: "NIH Iron Fact Sheet" }
+    metadata: { url: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", title: "NIH Iron Fact Sheet" }
   },
   {
     content: "Flaxseeds (ground or oil) and chia seeds are among the richest plant sources of omega-3 alpha-linolenic acid (ALA). One tablespoon of flaxseed oil provides about 7g of ALA, and two tablespoons of chia seeds provide roughly 5g of ALA. Walnuts provide about 2.5g ALA per ounce.",
-    metadata: { source: "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", title: "NIH Omega-3 Fact Sheet" }
+    metadata: { url: "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", title: "NIH Omega-3 Fact Sheet" }
   },
   {
     content: "The USDA advises that cooked chicken can be kept safely in the refrigerator for 3–4 days, provided the fridge is at or below 40 °F (4 °C). Cooked chicken should be placed in a shallow, airtight container and cooled to refrigerator temperature within two hours after cooking.",
-    metadata: { source: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table", title: "USDA Chicken Safety" }
+    metadata: { url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table", title: "USDA Chicken Safety" }
   },
   {
     content: "The USDA recommends cooking whole cuts of pork to an internal temperature of 145 °F (63 °C) and allowing the meat to rest for at least three minutes before eating. Ground pork should be cooked to an internal temperature of 160 °F (71 °C). Reaching these temperatures destroys harmful bacteria and parasites such as Trichinella.",
-    metadata: { source: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table", title: "USDA Pork Safety" }
+    metadata: { url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table", title: "USDA Pork Safety" }
   },
   {
     content: "Boiling vegetables can cause loss of water-soluble vitamins such as vitamin C and B-vitamins due to heat degradation and leaching into cooking water. If the water is drained, up to 30–50% of vitamin C may be lost. Fat-soluble vitamins (A, D, E, K) are more stable to heat. Cooking can increase the bioavailability of some nutrients, like lycopene.",
-    metadata: { source: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/", title: "Effect of cooking methods on nutrients" }
+    metadata: { url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/", title: "Effect of cooking methods on nutrients" }
   },
   {
     content: "Air fryers cook food by rapidly circulating hot air and typically need little or no added oil. Air-fried items often have 70-80% less fat than the same foods deep-fried. Both air frying and deep frying use high temperatures that can generate acrylamide in starchy foods.",
-    metadata: { source: "https://www.healthline.com/nutrition/air-fryer", title: "Air Fryer Health Facts" }
+    metadata: { url: "https://www.healthline.com/nutrition/air-fryer", title: "Air Fryer Health Facts" }
   },
   {
     content: "Moderate coffee consumption (about 3–4 cups per day) has been linked in large observational studies to lower risks of type 2 diabetes and Parkinson's disease. Coffee provides antioxidants like chlorogenic acids. High caffeine intake can cause insomnia, anxiety, and increased heart rate. The WHO advises pregnant individuals to limit caffeine to about 200 mg per day.",
-    metadata: { source: "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/", title: "Harvard Nutrition Source: Coffee" }
+    metadata: { url: "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/", title: "Harvard Nutrition Source: Coffee" }
   },
   {
     content: "Replacing saturated fat with polyunsaturated fats consistently lowers cardiovascular risk. Swapping saturated fat for refined carbohydrates does not show a clear benefit for heart disease risk. The WHO and USDA recommend limiting saturated fat to less than 10% of total daily calories.",
-    metadata: { source: "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats", title: "AHA Saturated Fats" }
+    metadata: { url: "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats", title: "AHA Saturated Fats" }
   }
 ];
 

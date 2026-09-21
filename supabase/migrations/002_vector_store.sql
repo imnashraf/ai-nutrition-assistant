@@ -6,14 +6,14 @@ create table documents (
   id uuid primary key default gen_random_uuid(),
   content text not null, -- the actual text of the chunk
   metadata jsonb, -- stores url, title, etc.
-  embedding vector(1536) -- OpenAI text-embedding-3-small uses 1536 dimensions
+  embedding vector(384) -- all-MiniLM-L6-v2 uses 384 dimensions
 );
 -- Allow the server-side service_role to seed documents
 grant insert on table public.documents to service_role;
 
 -- Create a function to similarity search for documents
 create or replace function match_documents (
-  query_embedding vector(1536),
+  query_embedding vector(384),
   match_threshold float,
   match_count int
 )

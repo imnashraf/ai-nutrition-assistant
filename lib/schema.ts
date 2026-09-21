@@ -10,9 +10,15 @@ import { z } from "zod";
 // Milestone 2 change: source z.null() → z.string().nullable()
 // ─────────────────────────────────────────────────────────────────────────────
 
+export const SourceSchema = z.object({
+  title: z.string(),
+  url: z.string().url(),
+  publisher: z.string().optional()
+});
+
 export const ClaimSchema = z.object({
   claim_text: z.string(),
-  source: z.string().url().nullable().describe("The URL of the source documenting this claim, if provided in context."),
+  source: z.union([z.string().url(), SourceSchema]).nullable().describe("The source documenting this claim, if provided in context."),
 });
 
 export const ChatResponseSchema = z.object({
