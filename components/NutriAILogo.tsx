@@ -8,20 +8,34 @@ type NutriAILogoProps = {
 export default function NutriAILogo({ variant = 'full', className = '' }: NutriAILogoProps) {
   const Icon = () => (
     <svg viewBox="0 0 100 100" className="w-full h-full overflow-visible" aria-hidden="true">
-      {/* Circular wellness/balance element */}
-      <circle cx="50" cy="50" r="45" fill="currentColor" className="text-primary-container" />
+      {/* Balance Arc */}
+      <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" className="text-primary/30" strokeWidth="2" strokeDasharray="6 4" />
       
-      {/* Left leaf */}
-      <path d="M50 62 Q20 62 25 35 Q45 35 50 62" fill="currentColor" className="text-primary/70" />
+      {/* Sun/Wellness circle */}
+      <circle cx="50" cy="45" r="32" fill="currentColor" className="text-primary-container" />
       
-      {/* Right leaf */}
-      <path d="M50 62 Q80 52 75 25 Q55 30 50 62" fill="currentColor" className="text-primary" />
+      {/* Left accent leaf */}
+      <path d="M45 55 Q20 55 25 30 Q40 30 45 55" fill="currentColor" className="text-primary/70" />
       
-      {/* Center leaf/stem */}
-      <path d="M50 62 Q40 32 50 15 Q60 32 50 62" fill="currentColor" className="text-primary-dark opacity-90" style={{ color: '#059669' }} />
+      {/* Orange accent (carrot/squash) */}
+      <path d="M40 55 L25 20 Q35 15 42 25 L47 55 Z" fill="#f59e0b" />
       
+      {/* Center dark leaf */}
+      <path d="M50 55 Q35 25 50 10 Q65 25 50 55" fill="currentColor" style={{ color: '#059669' }} className="text-primary-dark opacity-90" />
+      
+      {/* Prominent right leaf */}
+      <path d="M55 55 Q85 45 80 15 Q60 25 55 55" fill="currentColor" className="text-primary" />
+      
+      {/* Small floating accents (vitamins/energy) */}
+      <circle cx="25" cy="45" r="3" fill="#fbbf24" />
+      <circle cx="75" cy="35" r="4" fill="#34d399" />
+      <circle cx="65" cy="15" r="2.5" fill="#f59e0b" />
+      <circle cx="35" cy="15" r="2" fill="currentColor" className="text-primary" />
+
       {/* Bowl */}
-      <path d="M20 60 A 30 30 0 0 0 80 60 Z" fill="currentColor" style={{ color: '#064e3b' }} />
+      <path d="M15 55 Q15 85 50 85 Q85 85 85 55 Z" fill="currentColor" style={{ color: '#065f46' }} />
+      {/* Bowl Rim */}
+      <ellipse cx="50" cy="55" rx="35" ry="4" fill="currentColor" style={{ color: '#064e3b' }} />
     </svg>
   );
 
