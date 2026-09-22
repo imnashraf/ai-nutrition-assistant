@@ -1,5 +1,8 @@
-import { pipeline, FeatureExtractionPipeline } from "@huggingface/transformers";
+import { pipeline, FeatureExtractionPipeline, env } from "@huggingface/transformers";
 import { getSupabase } from "@/lib/db";
+
+// Configure transformers cache for Vercel serverless (read-only filesystem)
+env.cacheDir = '/tmp/.cache';
 
 // Keep a global reference so we don't reload the model on every request
 let extractor: FeatureExtractionPipeline | null = null;

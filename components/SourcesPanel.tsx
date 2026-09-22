@@ -1,59 +1,54 @@
 import type { Claim } from "@/types/chat";
 
 export default function SourcesPanel({ claims }: { claims: Claim[] }) {
+  if (claims.length === 0) {
+    return <p className="text-sm font-body-sm text-outline text-center mt-4">No sources for this response.</p>;
+  }
+
   return (
-    <div className="flex flex-col h-full">
-      <div className="px-4 py-4 border-b">
-        <h2 className="text-sm font-semibold text-gray-700">Sources</h2>
-        <p className="text-xs text-gray-400 mt-0.5">Citations appear here</p>
-      </div>
-      <div className="flex-1 overflow-y-auto px-4 py-4">
-        {claims.length === 0 ? (
-          <p className="text-xs text-gray-400 text-center mt-8">
-            No sources for this response.
-            <br />
-            Citations will appear in Milestone 2.
-          </p>
-        ) : (
-          <ul className="space-y-3">
-            {claims.map((claim, i) => (
-              <li key={i} className="text-xs text-gray-600 border rounded-lg p-3 bg-gray-50">
-                <p>{claim.claim_text}</p>
-                {claim.source && typeof claim.source === 'string' ? (
-                  <a
-                    href={claim.source}
-                    className="text-blue-500 hover:underline mt-1 block truncate"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {claim.source}
-                  </a>
-                ) : claim.source && (
-                  <div className="mt-2 text-[10px] text-gray-500 border-t pt-2">
-                    <div className="font-semibold">{claim.source.title}</div>
-                    <div className="flex items-center gap-1 mt-0.5">
-                      <span className="text-gray-400">{claim.source.publisher}</span>
-                      {claim.source.url && (
-                        <>
-                          <span className="text-gray-300">•</span>
-                          <a
-                            href={claim.source.url}
-                            className="text-blue-500 hover:underline truncate"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Source Link
-                          </a>
-                        </>
-                      )}
-                    </div>
-                  </div>
+    <ul className="space-y-4">
+      {claims.map((claim, i) => {
+        const src = claim.source;
+        const isString = typeof src === 'string';
+        const isObject = src && typeof src === 'object' ? src as { title: string, url: string, publisher?: string } : null;
+
+        return (
+        <li key={i} className="font-body-sm text-sm text-on-surface-variant border border-outline-variant rounded-xl p-4 bg-surface-container shadow-sm hover:shadow-md transition-shadow">
+          <p className="font-medium text-on-surface mb-2">"{claim.claim_text}"</p>
+          {src && isString ? (
+            <a
+              href={src}
+              className="text-primary hover:underline mt-1 block truncate font-code-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {src}
+            </a>
+          ) : isObject && (
+            <div className="mt-2 text-xs text-on-surface-variant border-t border-outline-variant pt-2 flex flex-col gap-1">
+              <div className="font-semibold text-primary">{isObject.title}</div>
+              <div className="flex items-center gap-1 mt-0.5">
+                {isObject.publisher && <span className="text-on-surface-variant/80 font-medium">{isObject.publisher}</span>}
+                {isObject.url && (
+                  <>
+                    {isObject.publisher && <span className="text-outline">•</span>}
+                    <a
+                      href={isObject.url}
+                      className="text-secondary hover:underline truncate inline-flex items-center gap-1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+                      View Source
+                    </a>
+                  </>
                 )}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div>
-    </div>
+              </div>
+            </div>
+          )}
+        </li>
+        );
+      })}
+    </ul>
   );
 }
