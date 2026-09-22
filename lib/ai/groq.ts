@@ -58,14 +58,8 @@ const FORMAT_RESPONSE_TOOL: Groq.Chat.Completions.ChatCompletionTool = {
                 description: "A single, checkable factual statement from the answer.",
               },
               source: {
-                type: ["object", "null"],
-                description: "The source documenting this claim, if provided in context. Must use one of the retrieved <document> tags.",
-                properties: {
-                  title: { type: "string" },
-                  url: { type: "string" },
-                  publisher: { type: "string" }
-                },
-                required: ["title", "url"]
+                type: "null",
+                description: "Must be exactly null.",
               },
             },
             required: ["claim_text", "source"],

@@ -7,7 +7,7 @@ env.cacheDir = '/tmp/.cache';
 // Keep a global reference so we don't reload the model on every request
 let extractor: FeatureExtractionPipeline | null = null;
 
-export async function retrieveContext(query: string): Promise<string> {
+export async function retrieveContext(query: string): Promise<{ contextStr: string; sources: any[] }> {
   // 1. Get the embedding for the user's query
   try {
     if (!extractor) {
@@ -30,24 +30,36 @@ export async function retrieveContext(query: string): Promise<string> {
 
     if (error) {
       console.error("Error matching documents:", error);
-      return "";
+      return { contextStr: "", sources: [] };
     }
 
     if (!data || data.length === 0) {
-      return "";
+      return { contextStr: "", sources: [] };
     }
 
     // 3. Format the results into a string for the system prompt
-    return data
+    const contextStr = data
       .map(
         (doc: any) =>
-          `<document title="${doc.metadata?.title || "Unknown"}" url="${doc.metadata?.url || ""}" publisher="${doc.metadata?.publisher || ""}">\n${
+          `<document title="${doc.metadata?.title || "Unknown"}" url="${doc.metadata?.url || doc.metadata?.source || ""}" publisher="${doc.metadata?.publisher || ""}">\n${
             doc.content
           }\n</document>`
       )
-      .join("\n\n");
+    const rawSources = data.map((doc: any) => ({
+      title: doc.metadata?.title || "Unknown",
+      url: doc.metadata?.url || doc.metadata?.source || "",
+      publisher: doc.metadata?.publisher || "",
+    }));
+
+    // Deduplicate by URL
+    const sources = rawSources.filter(
+      (source: any, index: number, self: any[]) =>
+        index === self.findIndex((s) => s.url === source.url)
+    );
+
+    return { contextStr, sources };
   } catch (err) {
     console.error("Retrieval failed:", err);
-    return "";
+    return { contextStr: "", sources: [] };
   }
 }

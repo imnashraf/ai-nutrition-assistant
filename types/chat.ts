@@ -1,4 +1,4 @@
-import type { ChatResponse, Claim } from "@/lib/schema";
+import type { ChatResponse, Claim, Source } from "@/lib/schema";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Shared Types
@@ -13,6 +13,7 @@ export interface DisplayMessage {
   role: "user" | "assistant";
   content: string;
   claims: Claim[];
+  sources?: Source[];
   declined: boolean;
   createdAt: string;
 }
@@ -26,8 +27,12 @@ export interface ChatApiRequest {
 /** Shape of a successful response from POST /api/chat. */
 export interface ChatApiResponse {
   conversation_id: string;
-  response: ChatResponse;
+  response: {
+    answer: string;
+    claims: Claim[];
+    sources?: Source[];
+  };
   declined: boolean;
 }
 
-export type { ChatResponse, Claim };
+export type { ChatResponse, Claim, Source };

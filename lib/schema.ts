@@ -18,13 +18,15 @@ export const SourceSchema = z.object({
 
 export const ClaimSchema = z.object({
   claim_text: z.string(),
-  source: z.union([z.string().url(), SourceSchema]).nullable().describe("The source documenting this claim, if provided in context."),
+  source: z.null().describe("The source documenting this claim. Must remain exactly null."),
 });
 
 export const ChatResponseSchema = z.object({
   answer: z.string(),
   claims: z.array(ClaimSchema),
+  sources: z.array(SourceSchema).optional(),
 });
 
 export type ChatResponse = z.infer<typeof ChatResponseSchema>;
 export type Claim = z.infer<typeof ClaimSchema>;
+export type Source = z.infer<typeof SourceSchema>;

@@ -64,6 +64,7 @@ export default function ChatPage() {
         role: "assistant",
         content: data.response.answer,
         claims: data.response.claims,
+        sources: data.response.sources,
         declined: data.declined,
         createdAt: new Date().toISOString(),
       };
@@ -87,15 +88,17 @@ export default function ChatPage() {
     }
   }
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    sendMessage(input);
+  function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage(input);
+    }
   }
 
   const assistantMessages = messages.filter((m) => m.role === "assistant");
   const currentResponse = assistantMessages.length > 0 ? assistantMessages[assistantMessages.length - 1] : null;
-  const previousResponses = assistantMessages.slice(0, -1).filter((m) => m.claims && m.claims.length > 0).reverse();
-  const hasSources = (currentResponse?.claims && currentResponse.claims.length > 0) || previousResponses.length > 0;
+  const previousResponses = assistantMessages.slice(0, -1).filter((m) => (m.claims && m.claims.length > 0) || (m.sources && m.sources.length > 0)).reverse();
+  const hasSources = (currentResponse?.claims && currentResponse.claims.length > 0) || (currentResponse?.sources && currentResponse.sources.length > 0) || previousResponses.length > 0;
 
   return (
     <div className={`flex flex-col w-full h-full lg:flex-row overflow-hidden mx-auto ${messages.length > 0 ? "max-w-6xl xl:max-w-7xl" : "w-full"}`}>
@@ -136,7 +139,7 @@ export default function ChatPage() {
                 <MessageBubble message={msg} />
                 
                 {/* On mobile, render sources right below EVERY assistant answer that has claims (history is naturally preserved) */}
-                {msg.role === "assistant" && msg.claims && msg.claims.length > 0 && (
+                {msg.role === "assistant" && ((msg.claims && msg.claims.length > 0) || (msg.sources && msg.sources.length > 0)) && (
                   <div className="mt-4 lg:hidden">
                     <div className="bg-surface-container-high rounded-xl border border-outline-variant overflow-hidden">
                       <div className="p-3 border-b border-outline-variant bg-surface-container">
@@ -146,7 +149,7 @@ export default function ChatPage() {
                         </h3>
                       </div>
                       <div className="p-4 bg-surface-container-lowest/50">
-                        <SourcesPanel claims={msg.claims} />
+                        <SourcesPanel claims={msg.claims || []} sources={msg.sources} />
                       </div>
                     </div>
                   </div>
@@ -166,26 +169,28 @@ export default function ChatPage() {
 
         {/* Chat Input */}
         <div className="p-4 md:p-6 bg-surface border-t border-outline-variant w-full">
-          <form onSubmit={handleSubmit} className="max-w-3xl mx-auto relative flex items-center">
+          <div className="max-w-3xl mx-auto relative flex items-center">
             <input
               id="chat-input"
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
+              onKeyDown={handleKeyDown}
               placeholder="Ask about nutrition..."
               className="w-full bg-surface-container text-on-surface border border-outline rounded-full pl-6 pr-14 py-4 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary shadow-sm text-base"
               disabled={isLoading}
             />
             <button
               id="send-button"
-              type="submit"
+              type="button"
+              onClick={() => sendMessage(input)}
               disabled={isLoading || !input.trim()}
               className="absolute right-2 w-10 h-10 bg-primary text-on-primary rounded-full flex items-center justify-center hover:bg-secondary disabled:opacity-50 transition-colors shadow-sm"
               aria-label="Send message"
             >
               <span className="material-symbols-outlined text-[20px]">arrow_upward</span>
             </button>
-          </form>
+          </div>
           <div className="text-center mt-3 text-xs text-on-surface-variant">
             NutriAI provides evidence-backed nutrition information.
           </div>
@@ -202,10 +207,10 @@ export default function ChatPage() {
           <div className="flex-1 overflow-y-auto p-5 space-y-8">
             
             {/* CURRENT RESPONSE */}
-            {currentResponse && currentResponse.claims && currentResponse.claims.length > 0 && (
+            {currentResponse && ((currentResponse.claims && currentResponse.claims.length > 0) || (currentResponse.sources && currentResponse.sources.length > 0)) && (
               <div>
                 <h3 className="text-[11px] font-bold text-outline uppercase tracking-widest mb-3">Current Response</h3>
-                <SourcesPanel claims={currentResponse.claims} />
+                <SourcesPanel claims={currentResponse.claims || []} sources={currentResponse.sources} />
               </div>
             )}
             
@@ -219,7 +224,7 @@ export default function ChatPage() {
                       <div className="text-xs text-on-surface-variant italic mb-2 line-clamp-2 pl-2 border-l-2 border-outline">
                         "{msg.content}"
                       </div>
-                      <SourcesPanel claims={msg.claims} />
+                      <SourcesPanel claims={msg.claims || []} sources={msg.sources} />
                     </div>
                   ))}
                 </div>

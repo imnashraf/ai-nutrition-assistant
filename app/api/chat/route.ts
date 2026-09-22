@@ -149,8 +149,10 @@ export async function POST(req: NextRequest) {
 
   // ── 7. Call AI provider ────────────────────────────────────────────────────
   let rawModelOutput: unknown;
+  let retrievedSources: any[] = [];
   try {
-    const contextStr = await retrieveContext(trimmedMessage);
+    const { contextStr, sources } = await retrieveContext(trimmedMessage);
+    retrievedSources = sources;
     const finalSystemPrompt = contextStr 
       ? `${SYSTEM_PROMPT}\n\n${contextStr}`
       : SYSTEM_PROMPT;
@@ -174,7 +176,11 @@ export async function POST(req: NextRequest) {
   }
 
   // ── 8. Validate response against schema ───────────────────────────────────
-  const schemaResult = ChatResponseSchema.safeParse(rawModelOutput);
+  let combinedOutput: unknown = rawModelOutput;
+  if (rawModelOutput && typeof rawModelOutput === 'object') {
+    combinedOutput = { ...rawModelOutput, sources: retrievedSources };
+  }
+  const schemaResult = ChatResponseSchema.safeParse(combinedOutput);
   if (!schemaResult.success) {
     console.error(
       "[/api/chat] Schema parse failed:",

@@ -62,7 +62,7 @@ async function run() {
       console.log(`Running ${q.id} (Run ${i + 1})...`);
       const res = await ask(q.text);
       results.repeatability[q.id].push(res);
-      await new Promise(resolve => setTimeout(resolve, 2000)); // Rate limit pause
+      await new Promise(resolve => setTimeout(resolve, 10000)); // Rate limit pause
     }
   }
 
@@ -71,7 +71,7 @@ async function run() {
     console.log(`Running Scope Test ${s.id}...`);
     const res = await ask(s.text);
     results.scope[s.id] = res;
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 10000));
   }
 
   console.log('--- Starting Context Flow Test ---');
@@ -81,7 +81,7 @@ async function run() {
     const res = await ask(contextFlow[i], convId);
     convId = res.conversation_id;
     results.contextFlow.push(res);
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 10000));
   }
 
   const regressions = [
@@ -100,7 +100,7 @@ async function run() {
     console.log(`Running Regression Test ${i + 1}...`);
     const res = await ask(regressions[i]);
     results.regressions.push({ question: regressions[i], result: res });
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 10000));
   }
 
   fs.writeFileSync('eval_results.json', JSON.stringify(results, null, 2));
