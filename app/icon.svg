@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular wellness/balance element -->
+  <circle cx="50" cy="50" r="45" fill="#ecfdf5" />
+  
+  <!-- Left leaf -->
+  <path d="M50 62 Q20 62 25 35 Q45 35 50 62" fill="#34d399" />
+  
+  <!-- Right leaf -->
+  <path d="M50 62 Q80 52 75 25 Q55 30 50 62" fill="#10b981" />
+  
+  <!-- Center leaf/stem -->
+  <path d="M50 62 Q40 32 50 15 Q60 32 50 62" fill="#059669" />
+  
+  <!-- Bowl -->
+  <path d="M20 60 A 30 30 0 0 0 80 60 Z" fill="#065f46" />
+</svg>

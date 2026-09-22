@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import NutriAILogo from "@/components/NutriAILogo";
 export const metadata: Metadata = {
   title: "NutriAI Assistant",
   description: "Evidence-backed consumer nutrition assistant",
@@ -21,14 +21,7 @@ export default function RootLayout({
       </head>
       <body className="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col">
         <header className="w-full h-16 bg-surface-container/90 backdrop-blur-md border-b border-outline-variant flex items-center px-4 md:px-8 z-50 sticky top-0">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold shadow-sm">
-              <span className="material-symbols-outlined text-[18px]">eco</span>
-            </div>
-            <div className="flex flex-col justify-center">
-              <span className="font-headline-md text-lg tracking-tight text-on-surface font-bold leading-none">NutriAI</span>
-            </div>
-          </div>
+          <NutriAILogo variant="compact" />
         </header>
         <main className="flex-1 w-full flex bg-surface">
           {children}

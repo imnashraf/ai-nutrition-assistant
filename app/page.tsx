@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import type { ChatApiRequest, ChatApiResponse, DisplayMessage } from "@/types/chat";
 import MessageBubble from "@/components/MessageBubble";
 import SourcesPanel from "@/components/SourcesPanel";
+import NutriAILogo from "@/components/NutriAILogo";
 import { v4 as uuidv4 } from "uuid";
 
 const SUGGESTIONS = [
@@ -104,10 +105,8 @@ export default function ChatPage() {
         {/* Chat Header / Welcome */}
         {messages.length === 0 && (
           <div className="flex-1 flex flex-col items-center justify-center p-8 text-center w-full max-w-4xl mx-auto">
-            <div className="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center text-primary mb-6 shadow-sm">
-              <span className="material-symbols-outlined text-3xl">local_florist</span>
-            </div>
-            <h1 className="font-headline-lg text-3xl font-bold text-on-surface mb-3 tracking-tight">How can I help you eat healthier today?</h1>
+            <NutriAILogo variant="full" className="mb-8" />
+            <h2 className="font-headline-sm text-xl font-medium text-on-surface mb-3 tracking-tight">How can I help you eat healthier today?</h2>
             <p className="text-on-surface-variant max-w-lg font-body-md mb-10 text-base">
               Ask me about food nutrition, dietary facts, and food safety. My answers are evidence-backed.
             </p>
