@@ -2,59 +2,83 @@
   "repeatability": {
     "Q1": [
       {
-        "conversation_id": "bc32d774-46e3-4b4a-9e7d-09b11d17719f",
+        "conversation_id": "1fd6ecf0-5f0f-4990-95c8-97adb90b6242",
         "response": {
-          "answer": "Adult women ages 19–50 years should aim for about 18 mg of elemental iron each day, while women 51 years and older need roughly 8 mg per day because they no longer lose iron through menstruation.",
+          "answer": "Adult women of reproductive age (roughly ages 19–50) need about 18 mg of iron each day. After menopause (age 51 and older), the requirement drops to about 8 mg per day because menstrual losses stop. If a woman is pregnant, the iron need rises to roughly 27 mg per day.",
           "claims": [
             {
-              "claim_text": "Adult women ages 19–50 years should aim for about 18 mg of elemental iron each day.",
-              "source": null
+              "claim_text": "The Recommended Dietary Allowance (RDA) for iron is 18 mg per day for adult women aged 19–50.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Women 51 years and older need roughly 8 mg of elemental iron per day because they no longer lose iron through menstruation.",
-              "source": null
+              "claim_text": "After menopause (age 51 and older), the iron RDA drops to 8 mg per day because menstrual losses cease.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "During pregnancy, the iron RDA rises to 27 mg per day.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "30abe213-4168-40bf-9cf0-f4c4e7cf898a",
+        "conversation_id": "e5c64dc0-567b-42a3-b29b-80e027255ad0",
         "response": {
-          "answer": "The Recommended Dietary Allowance (RDA) for iron for most adult women ages 19‑50 is about 18 mg per day, reflecting the loss of iron during menstruation. After menopause (typically age 51 and older), the RDA drops to about 8 mg per day because menstrual losses cease. Individual needs can vary with factors such as pregnancy, blood loss, or high‑intensity exercise, so these values are general guidelines.",
+          "answer": "The U.S. Institute of Medicine recommends that adult women aged 19–50 get about 18 mg of iron each day. After menopause (age 51 and older), the recommended amount drops to about 8 mg per day because menstrual losses cease.",
           "claims": [
             {
-              "claim_text": "The Recommended Dietary Allowance (RDA) for iron for most adult women ages 19‑50 is about 18 mg per day.",
-              "source": null
+              "claim_text": "The U.S. Institute of Medicine recommends that adult women aged 19–50 get about 18 mg of iron each day.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "After menopause (typically age 51 and older), the RDA for iron drops to about 8 mg per day.",
-              "source": null
-            },
-            {
-              "claim_text": "Iron needs are higher in women of reproductive age because of menstrual blood loss.",
-              "source": null
+              "claim_text": "After menopause (age 51 and older), the recommended amount drops to about 8 mg per day because menstrual losses cease.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "88fea9dd-67d5-45ad-a817-c52963846715",
+        "conversation_id": "2c7331b6-f439-409f-84c2-5f5563cf98b3",
         "response": {
-          "answer": "Adult women of reproductive age (roughly 19‑50 years) are recommended to get about 18 mg of iron each day, mainly to replace losses from menstruation. After menopause, the recommended intake drops to about 8 mg per day because menstrual losses cease. These values are based on the Dietary Reference Intakes used in many countries.",
+          "answer": "The U.S. Institute of Medicine recommends that adult women aged 19–50 get about 18 mg of iron each day. After menopause (typically age 51 and older), the recommended amount drops to about 8 mg per day because menstrual blood losses cease. These values are the Recommended Dietary Allowances (RDAs) for iron.",
           "claims": [
             {
-              "claim_text": "Adult women of reproductive age (roughly 19‑50 years) are recommended to get about 18 mg of iron each day.",
-              "source": null
+              "claim_text": "The U.S. Institute of Medicine recommends that adult women aged 19–50 get about 18 mg of iron each day.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "After menopause, the recommended iron intake for women drops to about 8 mg per day.",
-              "source": null
-            },
-            {
-              "claim_text": "The higher iron need in reproductive‑age women is to replace losses from menstruation.",
-              "source": null
+              "claim_text": "After menopause (age 51 and older), the recommended iron intake drops to about 8 mg per day.",
+              "source": {
+                "title": "NIH Iron Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -63,91 +87,147 @@
     ],
     "Q2": [
       {
-        "conversation_id": "a767d854-32ca-4056-bc05-44b4d5b41c45",
+        "conversation_id": "52771247-e9cb-4ba9-9a4f-94e99ab82cdf",
         "response": {
-          "answer": "Plant foods that are richest in omega‑3s contain the short‑chain fatty acid alpha‑linolenic acid (ALA). The top sources are ground flaxseed or flaxseed oil, chia seeds, hemp seeds, and walnuts. Oils such as canola, soybean, and perilla oil also provide notable amounts of ALA. These foods can help boost your intake of plant‑based omega‑3s, though the body converts ALA to the longer‑chain EPA and DHA only in limited amounts.",
+          "answer": "The richest plant sources of the omega‑3 fatty acid alpha‑linolenic acid (ALA) are flaxseeds (especially ground seeds or flaxseed oil), chia seeds, and walnuts. One tablespoon of flaxseed oil supplies about 7 g of ALA, while two tablespoons of chia seeds provide roughly 5 g of ALA. An ounce of walnuts contributes about 2.5 g of ALA.",
           "claims": [
             {
-              "claim_text": "Plant foods that are richest in omega‑3s contain the short‑chain fatty acid alpha‑linolenic acid (ALA).",
-              "source": null
+              "claim_text": "Flaxseeds (ground or oil) are among the richest plant sources of omega‑3 alpha‑linolenic acid (ALA).",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The top sources of plant ALA are ground flaxseed or flaxseed oil, chia seeds, hemp seeds, and walnuts.",
-              "source": null
+              "claim_text": "One tablespoon of flaxseed oil provides about 7 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Oils such as canola, soybean, and perilla oil also provide notable amounts of ALA.",
-              "source": null
+              "claim_text": "Chia seeds are among the richest plant sources of omega‑3 alpha‑linolenic acid (ALA).",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The body converts ALA to the longer‑chain EPA and DHA only in limited amounts.",
-              "source": null
+              "claim_text": "Two tablespoons of chia seeds provide roughly 5 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "Walnuts provide about 2.5 g of ALA per ounce.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "46b95a99-5c73-4da9-93c1-9324843191bc",
+        "conversation_id": "45fb2f86-3645-4c12-bd60-bb4be9b9abe3",
         "response": {
-          "answer": "Plant foods that are richest in omega‑3s contain the short‑chain fatty acid alpha‑linolenic acid (ALA). The top sources are ground flaxseed or flaxseed oil, chia seeds, hemp seeds, and walnuts. Oils such as canola, soybean, and perilla oil also provide notable amounts of ALA. These foods can help boost your intake of plant‑based omega‑3s, though the body converts ALA to the longer‑chain EPA and DHA only in limited amounts.",
+          "answer": "The richest plant sources of the omega‑3 fatty acid alpha‑linolenic acid (ALA) are flaxseeds (both ground seeds and flaxseed oil), chia seeds, and walnuts. One tablespoon of flaxseed oil supplies about 7 g of ALA, while two tablespoons of chia seeds provide roughly 5 g of ALA. An ounce of walnuts contributes about 2.5 g of ALA.",
           "claims": [
             {
-              "claim_text": "Plant foods that are richest in omega‑3s contain the short‑chain fatty acid alpha‑linolenic acid (ALA).",
-              "source": null
+              "claim_text": "Flaxseeds (ground or oil) are among the richest plant sources of omega‑3 alpha‑linolenic acid (ALA).",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The top sources of plant ALA are ground flaxseed or flaxseed oil, chia seeds, hemp seeds, and walnuts.",
-              "source": null
+              "claim_text": "One tablespoon of flaxseed oil provides about 7 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Oils such as canola, soybean, and perilla oil also provide notable amounts of ALA.",
-              "source": null
+              "claim_text": "Chia seeds are among the richest plant sources of omega‑3 ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The body converts ALA to the longer‑chain EPA and DHA only in limited amounts.",
-              "source": null
+              "claim_text": "Two tablespoons of chia seeds provide roughly 5 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "Walnuts provide about 2.5 g of ALA per ounce.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "0e9b3dbb-e6fe-49cd-a6e8-4e3ccb2f4141",
+        "conversation_id": "7941090a-bf32-48ec-a7a8-7ec7ce2f8fde",
         "response": {
-          "answer": "Plant foods that are high in the omega‑3 fatty acid alpha‑linolenic acid (ALA) include flaxseeds (especially when ground), chia seeds, hemp seeds, walnuts, soybeans/edamame, canola oil, and Brussels sprouts; perilla oil is also exceptionally rich in ALA. ALA is the plant form of omega‑3 that the body can partially convert to the longer‑chain EPA and DHA found in fish. For better absorption, use ground flaxseed or chia seeds in smoothies, oatmeal, or baked goods, and consider adding walnuts or a drizzle of canola or perilla oil to salads. These plant sources can help round out a balanced diet that includes a variety of healthy fats.",
+          "answer": "Plant foods that are especially high in the omega‑3 fatty acid alpha‑linolenic acid (ALA) include flaxseeds (both ground and oil), chia seeds, and walnuts. One tablespoon of flaxseed oil supplies about 7 g of ALA, while two tablespoons of chia seeds provide roughly 5 g of ALA. An ounce of walnuts contributes about 2.5 g of ALA, making these three foods among the richest plant sources of omega‑3s.",
           "claims": [
             {
-              "claim_text": "Flaxseeds are one of the richest plant sources of the omega-3 fatty acid alpha‑linolenic acid (ALA).",
-              "source": null
+              "claim_text": "Flaxseeds (ground or oil) are among the richest plant sources of omega‑3 alpha‑linolenic acid (ALA).",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Chia seeds provide a comparable amount of ALA per serving.",
-              "source": null
+              "claim_text": "One tablespoon of flaxseed oil provides about 7 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Hemp seeds contain ALA and also provide a balanced ratio of omega‑6 to omega‑3 fatty acids.",
-              "source": null
+              "claim_text": "Chia seeds are among the richest plant sources of omega‑3 ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Walnuts are a good plant source of ALA.",
-              "source": null
+              "claim_text": "Two tablespoons of chia seeds provide roughly 5 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Soybeans and soy products such as edamame contain ALA.",
-              "source": null
-            },
-            {
-              "claim_text": "Canola oil contains ALA and is commonly used in cooking.",
-              "source": null
-            },
-            {
-              "claim_text": "Brussels sprouts contain small amounts of ALA.",
-              "source": null
-            },
-            {
-              "claim_text": "Perilla oil is very high in ALA, often exceeding that of flaxseed oil.",
-              "source": null
+              "claim_text": "Walnuts provide about 2.5 g of ALA per ounce.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -156,75 +236,99 @@
     ],
     "Q3": [
       {
-        "conversation_id": "d397c03c-9d8a-46a2-8f31-b6df5b50e036",
+        "conversation_id": "da46a2d0-730d-4ee6-a54b-4c4fca25164b",
         "response": {
-          "answer": "Cooked chicken can be kept safely in the refrigerator for 3–4 days when stored at or below 40 °F (4 °C). Place it in a shallow, airtight container or wrap it tightly with foil or plastic wrap to limit bacterial growth. If you won’t eat it within that time, freeze it; frozen cooked chicken remains safe for 2–6 months. Always reheat leftovers to an internal temperature of 165 °F (74 °C) before eating.",
+          "answer": "Cooked chicken can be stored safely in the refrigerator for 3–4 days if the fridge temperature is kept at or below 40 °F (4 °C). To maintain safety, place the chicken in a shallow, airtight container and cool it to refrigerator temperature within two hours after cooking.",
           "claims": [
             {
-              "claim_text": "Cooked chicken can be kept safely in the refrigerator for 3–4 days when stored at or below 40 °F (4 °C).",
-              "source": null
+              "claim_text": "Cooked chicken can be kept safely in the refrigerator for 3–4 days.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Cooked chicken should be stored in a shallow, airtight container or wrapped tightly to limit bacterial growth.",
-              "source": null
+              "claim_text": "The refrigerator must be at or below 40 °F (4 °C) for safe storage of cooked chicken.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "If not eaten within 3–4 days, cooked chicken can be frozen and remains safe for 2–6 months.",
-              "source": null
-            },
-            {
-              "claim_text": "Leftover cooked chicken should be reheated to an internal temperature of 165 °F (74 °C) before eating.",
-              "source": null
+              "claim_text": "Cooked chicken should be placed in a shallow, airtight container and cooled to refrigerator temperature within two hours after cooking.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "b8b63d11-8ab9-4aaa-adb7-aa6e10a9c8f0",
+        "conversation_id": "1726345c-8f00-474e-8719-760f1ac39519",
         "response": {
-          "answer": "Cooked chicken can be safely kept in the refrigerator for 3–4 days. Store it in a shallow, airtight container or tightly wrapped to keep out bacteria. The fridge should be at 40 °F (4 °C) or colder. If you won’t eat it within that time, freeze it, where it stays good for 2–6 months.",
+          "answer": "Cooked chicken can be stored safely in the refrigerator for 3–4 days if the fridge is kept at 40 °F (4 °C) or lower. It should be placed in a shallow, airtight container and cooled to refrigerator temperature within two hours after cooking.",
           "claims": [
             {
-              "claim_text": "Cooked chicken can be safely stored in the refrigerator for 3–4 days.",
-              "source": null
+              "claim_text": "Cooked chicken can be stored safely in the refrigerator for 3–4 days.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Cooked chicken should be kept in a shallow, airtight container or tightly wrapped to limit bacterial growth.",
-              "source": null
+              "claim_text": "The refrigerator should be at or below 40 °F (4 °C) for safe storage of cooked chicken.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The refrigerator temperature should be 40 °F (4 °C) or lower for safe storage of cooked chicken.",
-              "source": null
-            },
-            {
-              "claim_text": "If not eaten within 3–4 days, cooked chicken can be frozen and remain safe for 2–6 months.",
-              "source": null
+              "claim_text": "Cooked chicken should be placed in a shallow, airtight container and cooled to refrigerator temperature within two hours after cooking.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "50b19915-c652-4691-9a88-dd0439ee549b",
+        "conversation_id": "9332eab8-e864-4f9d-a3d1-0625103fdb40",
         "response": {
-          "answer": "Cooked chicken can be safely stored in the refrigerator for 3 to 4 days, as long as it is kept at or below 40 °F (4 °C). To maintain safety, place the chicken in a shallow, airtight container or wrap it tightly in foil or plastic wrap to limit exposure to air. After 4 days, the risk of bacterial growth increases, so any leftovers should be discarded or reheated thoroughly before eating.",
+          "answer": "Cooked chicken can be stored safely in the refrigerator for 3–4 days as long as the fridge temperature is at or below 40 °F (4 °C) and the chicken is placed in a shallow, airtight container within two hours of cooking.",
           "claims": [
             {
-              "claim_text": "Cooked chicken can be safely stored in the refrigerator for 3 to 4 days.",
-              "source": null
+              "claim_text": "Cooked chicken can be kept safely in the refrigerator for 3–4 days.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The refrigerator temperature should be at or below 40 °F (4 °C) for safe storage of cooked chicken.",
-              "source": null
+              "claim_text": "The refrigerator should be at or below 40 °F (4 °C) for safe storage of cooked chicken.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Storing cooked chicken in a shallow, airtight container or tightly wrapped helps limit exposure to air and maintain safety.",
-              "source": null
-            },
-            {
-              "claim_text": "After 4 days, the risk of bacterial growth in stored cooked chicken increases, so leftovers should be discarded or reheated thoroughly before eating.",
-              "source": null
+              "claim_text": "Cooked chicken should be placed in a shallow, airtight container and cooled to refrigerator temperature within two hours after cooking.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -233,51 +337,83 @@
     ],
     "Q4": [
       {
-        "conversation_id": "8b0c13a4-ebdc-4480-94c6-42a707b36a8e",
+        "conversation_id": "0d553594-2201-451b-9ab2-8bb44e553cf4",
         "response": {
-          "answer": "The USDA recommends cooking whole cuts of pork (such as chops, roasts, and tenderloin) to an internal temperature of 145 °F (63 °C) and then allowing the meat to rest for at least three minutes before eating. The rest period lets the temperature even out and kills any remaining harmful bacteria. Ground pork, like other ground meats, should be cooked to a higher temperature of 160 °F (71 °C) for safety.",
+          "answer": "The USDA says whole cuts of pork are safe to eat when they reach an internal temperature of 145 °F (63 °C) and are allowed to rest for at least three minutes. Ground pork should be cooked to a higher internal temperature of 160 °F (71 °C) to be considered safe.",
           "claims": [
             {
-              "claim_text": "The USDA recommends cooking whole cuts of pork to an internal temperature of 145 °F (63 °C) with a three‑minute rest.",
-              "source": null
+              "claim_text": "Whole cuts of pork are safe to eat when they reach an internal temperature of 145 °F (63 °C) and rest for at least three minutes.",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Ground pork should be cooked to an internal temperature of 160 °F (71 °C) for safety.",
-              "source": null
+              "claim_text": "Ground pork should be cooked to an internal temperature of 160 °F (71 °C) to be safe.",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "9a0618e9-54c4-4a18-bc3d-843fcf0d97e7",
+        "conversation_id": "a01e21a9-40cc-48b5-8511-8daef770b4b2",
         "response": {
-          "answer": "The USDA recommends cooking whole cuts of pork to an internal temperature of 145 °F (63 °C) and then allowing the meat to rest for at least three minutes before eating. This temperature ensures that harmful bacteria such as Salmonella and Trichinella are destroyed. Ground pork, like other ground meats, should be cooked to a higher temperature of 160 °F (71 °C) for safety.",
+          "answer": "The USDA says whole cuts of pork are safe to eat when cooked to an internal temperature of 145 °F (63 °C) and allowed to rest for at least three minutes. Ground pork should be cooked to a higher temperature—160 °F (71 °C)—to be considered safe.",
           "claims": [
             {
-              "claim_text": "The USDA recommends cooking whole cuts of pork to an internal temperature of 145 °F (63 °C) and then allowing the meat to rest for at least three minutes before eating.",
-              "source": null
+              "claim_text": "Whole cuts of pork are safe to eat when cooked to an internal temperature of 145 °F (63 °C) and allowed to rest for at least three minutes.",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Ground pork should be cooked to an internal temperature of 160 °F (71 °C) for safety.",
-              "source": null
+              "claim_text": "Ground pork should be cooked to an internal temperature of 160 °F (71 °C) to be safe.",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "aa85eceb-d59c-4a77-977a-8bf09487d2d7",
+        "conversation_id": "4bd63d05-3ad5-4512-9481-3acf80dce946",
         "response": {
-          "answer": "The USDA recommends cooking whole cuts of pork to an internal temperature of 145 °F (63 °C) and then allowing the meat to rest for at least three minutes before eating. This temperature ensures that harmful bacteria such as Salmonella and Trichinella are destroyed. Ground pork, like other ground meats, should be cooked to a higher temperature of 160 °F (71 °C) for safety.",
+          "answer": "The USDA says that whole cuts of pork are safe to eat when they reach an internal temperature of 145 °F (63 °C) and are allowed to rest for at least three minutes before serving. Ground pork needs to be cooked to a higher temperature—160 °F (71 °C)—to be considered safe. Reaching these temperatures destroys harmful bacteria and parasites such as Trichinella.",
           "claims": [
             {
-              "claim_text": "The USDA recommends cooking whole cuts of pork to an internal temperature of 145 °F (63 °C) and then allowing the meat to rest for at least three minutes before eating.",
-              "source": null
+              "claim_text": "Whole cuts of pork are safe to eat when they reach an internal temperature of 145 °F (63 °C) and rest for at least three minutes.",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Ground pork should be cooked to an internal temperature of 160 °F (71 °C) for safety.",
-              "source": null
+              "claim_text": "Ground pork is safe to eat when it reaches an internal temperature of 160 °F (71 °C).",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "Cooking pork to these temperatures destroys harmful bacteria and parasites such as Trichinella.",
+              "source": {
+                "title": "USDA Pork Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/fresh-pork-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -286,67 +422,123 @@
     ],
     "Q5": [
       {
-        "conversation_id": "c777c23f-f7b6-4fa1-8368-18db2464d81d",
+        "conversation_id": "1ddc1cc0-a21d-4450-a6b5-417e62a56b8c",
         "response": {
-          "answer": "Boiling vegetables can reduce the content of some vitamins, especially water‑soluble ones such as vitamin C and many B‑vitamins, because heat and the cooking water cause them to leach out and degrade. Fat‑soluble vitamins (A, D, E, K) are more heat‑stable, but prolonged boiling can still lead to modest losses. Steaming, microwaving, or using a short boil with minimal water helps retain more of the original vitamin content.",
+          "answer": "Boiling vegetables can reduce the amount of water‑soluble vitamins, especially vitamin C and the B‑vitamins, because the heat breaks them down and they can leach into the cooking water. If the water is drained after boiling, as much as 30–50% of the vitamin C may be lost. Fat‑soluble vitamins (A, D, E, K) are much more heat‑stable, so boiling has little effect on them. Some nutrients, like lycopene, actually become more bioavailable when cooked.",
           "claims": [
             {
-              "claim_text": "Boiling vegetables can reduce the content of water‑soluble vitamins such as vitamin C and many B‑vitamins due to leaching into cooking water and heat degradation.",
-              "source": null
+              "claim_text": "Boiling vegetables can cause loss of water‑soluble vitamins such as vitamin C and B‑vitamins due to heat degradation and leaching into cooking water.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more heat‑stable than water‑soluble vitamins, but prolonged boiling can still cause modest losses.",
-              "source": null
+              "claim_text": "If the water is drained after boiling, up to 30–50% of vitamin C may be lost.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Steaming, microwaving, or using a short boil with minimal water helps retain more of the original vitamin content in vegetables.",
-              "source": null
+              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more stable to heat and are less affected by boiling.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "Cooking can increase the bioavailability of some nutrients, like lycopene.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "98ebf690-594f-4555-9d02-eec43cb86465",
+        "conversation_id": "dbe6d306-d491-4582-a079-97e63040c2a3",
         "response": {
-          "answer": "Boiling vegetables can cause loss of heat‑sensitive, water‑soluble vitamins such as vitamin C and many B vitamins because they leach into the cooking water and degrade with heat. The extent of loss depends on how long the vegetables are boiled, the temperature, and how much water is used—longer times and more water lead to greater losses. Fat‑soluble vitamins (A, D, E, K) are more stable during boiling, though very prolonged cooking can still diminish their levels. Using less water, shortening the cooking time, or choosing methods like steaming or microwaving can help retain more of the vitamins.",
+          "answer": "Boiling can reduce the amount of water‑soluble vitamins in vegetables because the heat breaks them down and they can leach into the cooking water. If you pour out the water after boiling, you may lose roughly 30–50 % of the vitamin C. Fat‑soluble vitamins such as A, D, E, and K are much more heat‑stable and are largely retained. Some nutrients, like lycopene, actually become more bioavailable after cooking.",
           "claims": [
             {
-              "claim_text": "Boiling vegetables can cause loss of heat‑sensitive, water‑soluble vitamins such as vitamin C and many B vitamins because they leach into the cooking water and degrade with heat.",
-              "source": null
+              "claim_text": "Boiling vegetables can cause loss of water‑soluble vitamins such as vitamin C and B‑vitamins due to heat degradation and leaching into cooking water.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The extent of vitamin loss depends on how long the vegetables are boiled, the temperature, and how much water is used—longer times and more water lead to greater losses.",
-              "source": null
+              "claim_text": "If the water is drained, up to 30–50 % of vitamin C may be lost.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more stable during boiling, though very prolonged cooking can still diminish their levels.",
-              "source": null
+              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more stable to heat.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Using less water, shortening the cooking time, or choosing methods like steaming or microwaving can help retain more of the vitamins.",
-              "source": null
+              "claim_text": "Cooking can increase the bioavailability of some nutrients, like lycopene.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "c64dd116-8303-4eb0-bbdd-6a1100fbbbc3",
+        "conversation_id": "d5f35ee0-0e1c-4bce-a292-f3da0e014933",
         "response": {
-          "answer": "Boiling vegetables can reduce the content of some vitamins, especially water‑soluble ones such as vitamin C and many B‑vitamins, because heat and leaching into the cooking water degrade them. Fat‑soluble vitamins (A, D, E, K) are more heat‑stable, but they can still be lost if the cooking water is discarded after a long boil. Using less water, steaming, microwaving, or cooking for a shorter time helps retain more of the original vitamin content.",
+          "answer": "Boiling can reduce the amount of water‑soluble vitamins in vegetables because heat breaks them down and they can leach into the cooking water. If you drain the water, you may lose about 30–50 % of the vitamin C content. Fat‑soluble vitamins like A, D, E, and K are much more heat‑stable, so boiling has little effect on them. Some nutrients, such as lycopene, actually become more available after cooking.",
           "claims": [
             {
-              "claim_text": "Boiling vegetables can reduce the content of water‑soluble vitamins such as vitamin C and many B‑vitamins due to heat and leaching into the cooking water.",
-              "source": null
+              "claim_text": "Boiling vegetables can cause loss of water‑soluble vitamins such as vitamin C and B‑vitamins due to heat degradation and leaching into the cooking water.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more heat‑stable than water‑soluble vitamins, but can still be lost if cooking water is discarded after a long boil.",
-              "source": null
+              "claim_text": "If the cooking water is drained, up to 30–50 % of vitamin C may be lost.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Using less water, steaming, microwaving, or cooking for a shorter time helps retain more of the original vitamin content in vegetables.",
-              "source": null
+              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more stable to heat and are less affected by boiling.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "Cooking can increase the bioavailability of some nutrients, such as lycopene.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -355,20 +547,36 @@
     ],
     "Q6": [
       {
-        "conversation_id": "1f0ff68f-2b18-4421-90dc-333965adfba5",
+        "conversation_id": "5c927b8d-f0f6-4b75-a22c-41b651bb2975",
         "response": {
-          "answer": "Air fryers cook food by circulating hot air and usually need only a thin coating of oil, so the finished product typically contains far less added fat and fewer calories than the same food deep‑fried in a large amount of oil. The reduced oil also means lower intake of fried‑food‑associated compounds such as acrylamide, which forms more readily at the high temperatures of oil immersion. However, the overall health impact still depends on what you are cooking (e.g., processed breaded items versus vegetables) and how often you eat fried foods, so an air‑fried version is generally a healthier preparation method but not a guarantee of a healthy diet.",
+          "answer": "Air fryers typically use little or no added oil, so foods cooked this way contain about 70–80 % less fat than when deep‑fried. However, because both methods cook at high temperatures, they can produce acrylamide in starchy foods, a potential carcinogen. The lower fat content generally makes air frying a healthier option than deep frying, though the acrylamide risk remains.",
           "claims": [
             {
-              "claim_text": "Air fryers cook food by circulating hot air and usually need only a thin coating of oil, so the finished product typically contains far less added fat and fewer calories than the same food deep‑fried in a large amount of oil.",
-              "source": null
+              "claim_text": "Air fryers typically need little or no added oil.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The reduced oil also means lower intake of fried‑food‑associated compounds such as acrylamide, which forms more readily at the high temperatures of oil immersion.",
-              "source": null
+              "claim_text": "Air‑fried items often have 70–80 % less fat than the same foods deep‑fried.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The overall health impact still depends on what you are cooking and how often you eat fried foods, so an air‑fried version is generally a healthier preparation method but not a guarantee of a healthy diet.",
+              "claim_text": "Both air frying and deep frying use high temperatures that can generate acrylamide in starchy foods.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
+            },
+            {
+              "claim_text": "The lower fat content generally makes air frying a healthier option than deep frying.",
               "source": null
             }
           ]
@@ -376,54 +584,66 @@
         "declined": false
       },
       {
-        "conversation_id": "5f231f2d-fc01-4e69-b9f0-e52536c3bf4e",
+        "conversation_id": "73158e08-d6db-4348-a4cc-dc54f39547ab",
         "response": {
-          "answer": "Air fryers cook food by circulating hot air and usually need only a thin coating of oil, so the resulting dishes contain less added fat and fewer calories from fat than deep‑fried equivalents. The lower oil exposure also reduces the formation of oxidation products and acrylamide, a potential carcinogen that forms when starchy foods are fried at high temperatures. While the basic nutrient makeup of the food (protein, vitamins, minerals) stays largely the same, eating large amounts of any fried food—air‑fried or deep‑fried—can still be unhealthy, so overall dietary patterns matter.",
+          "answer": "Air fryers cook food by rapidly circulating hot air and usually need little or no added oil, so the finished dishes typically contain far less fat—about 70‑80% less—than the same foods that are deep‑fried. However, because both air frying and deep frying involve high cooking temperatures, they can both produce acrylamide, a chemical that forms in starchy foods when heated intensely. Therefore, while air frying is generally a lower‑fat option and can be considered healthier in that respect, it does not eliminate all the potential risks associated with high‑temperature cooking.",
           "claims": [
             {
-              "claim_text": "Air fryers cook food by circulating hot air and usually need only a thin coating of oil.",
-              "source": null
+              "claim_text": "Air fryers cook food by rapidly circulating hot air and usually need little or no added oil.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Foods prepared in an air fryer contain less added fat and therefore fewer calories from fat than the same foods deep‑fried in oil.",
-              "source": null
+              "claim_text": "Air‑fried items often have 70‑80% less fat than the same foods deep‑fried.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The reduced oil exposure in air frying leads to lower formation of oxidation products and less acrylamide compared with deep frying at high temperatures.",
-              "source": null
-            },
-            {
-              "claim_text": "The basic nutrient composition of the food (protein, vitamins, minerals) does not change dramatically between air frying and deep frying.",
-              "source": null
-            },
-            {
-              "claim_text": "Consuming large amounts of any fried food, including air‑fried foods, can still be unhealthy, so overall dietary patterns determine health impact.",
-              "source": null
+              "claim_text": "Both air frying and deep frying use high temperatures that can generate acrylamide in starchy foods.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "bd0de021-1432-4df0-ac92-1aaf39b158a4",
+        "conversation_id": "05852f34-f80f-44ef-a056-6d2ddbabc98c",
         "response": {
-          "answer": "Air fryers cook food by rapidly circulating hot air, so they typically need only a thin coating of oil or none at all, which results in lower overall fat and calorie content than deep‑frying, where food is submerged in oil. Because less oil is used, air‑fried foods usually contain fewer saturated fats and less total fat per serving. The high‑temperature, oil‑free environment of an air fryer also tends to produce less acrylamide—a potential carcinogen that forms when starchy foods are fried at high heat—compared with deep frying. However, the nutritional differences depend on the specific food and how much oil is added, and both methods can be part of a balanced diet when used in moderation.",
+          "answer": "Air fryers generally produce foods with far less fat than deep‑fried versions because they use little or no added oil, which can make them a healthier cooking option. However, both air frying and deep frying involve high temperatures that can create acrylamide in starchy foods, a compound linked to health concerns. So while air frying reduces fat intake, it does not eliminate all potential risks associated with high‑heat cooking.",
           "claims": [
             {
-              "claim_text": "Air fryers cook food by rapidly circulating hot air, so they typically need only a thin coating of oil or none at all.",
-              "source": null
+              "claim_text": "Air fryers cook food by rapidly circulating hot air and typically need little or no added oil.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Air‑fried foods usually contain fewer saturated fats and less total fat per serving than deep‑fried foods.",
-              "source": null
+              "claim_text": "Air‑fried items often have 70‑80% less fat than the same foods deep‑fried.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The high‑temperature, oil‑free environment of an air fryer tends to produce less acrylamide compared with deep frying.",
-              "source": null
-            },
-            {
-              "claim_text": "Nutritional differences between air frying and deep frying depend on the specific food and the amount of oil added.",
-              "source": null
+              "claim_text": "Both air frying and deep frying use high temperatures that can generate acrylamide in starchy foods.",
+              "source": {
+                "title": "Air Fryer Health Facts",
+                "url": "https://www.healthline.com/nutrition/air-fryer",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -432,91 +652,147 @@
     ],
     "Q7": [
       {
-        "conversation_id": "627793b1-9f7c-4294-a7be-161b0aabf333",
+        "conversation_id": "8c3c2378-546b-4f0b-a244-c61a993738bd",
         "response": {
-          "answer": "Coffee provides caffeine, a stimulant that can boost alertness and concentration, and it also supplies antioxidants such as chlorogenic acids. Research has linked regular coffee consumption to a lower risk of type 2 diabetes and some neurodegenerative diseases. However, drinking large amounts—typically more than four cups a day—can cause sleep disturbances, increased heart rate, and anxiety in sensitive people. Pregnant individuals are generally advised to limit caffeine to about 200 mg per day, roughly one 12‑oz cup of coffee. Whether coffee is beneficial or problematic depends on personal tolerance and moderation.",
+          "answer": "Coffee can be part of a healthy diet when consumed in moderation; about three to four cups a day have been associated with lower risks of type 2 diabetes and Parkinson’s disease and provide antioxidant compounds like chlorogenic acids. However, high caffeine intake may lead to insomnia, anxiety, and a faster heart rate, and pregnant people are advised to keep caffeine to roughly 200 mg per day. So, moderate coffee is generally considered beneficial for most adults, but excessive consumption or certain life stages warrant caution.",
           "claims": [
             {
-              "claim_text": "Coffee contains caffeine, a stimulant that can boost alertness and concentration.",
-              "source": null
+              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) has been linked in large observational studies to lower risks of type 2 diabetes.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Coffee contains antioxidants such as chlorogenic acids.",
-              "source": null
+              "claim_text": "Moderate coffee consumption has been linked to lower risk of Parkinson's disease.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Research links coffee consumption to a lower risk of type 2 diabetes and some neurodegenerative diseases.",
-              "source": null
+              "claim_text": "Coffee provides antioxidants like chlorogenic acids.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Consuming more than about four cups of coffee per day may cause sleep disturbances, increased heart rate, and anxiety in sensitive individuals.",
-              "source": null
+              "claim_text": "High caffeine intake can cause insomnia, anxiety, and increased heart rate.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Pregnant individuals are advised to limit caffeine intake to about 200 mg per day, roughly one 12‑oz cup of coffee.",
-              "source": null
+              "claim_text": "The WHO advises pregnant individuals to limit caffeine to about 200 mg per day.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "9ba60061-5c48-473e-8662-d26a552c89b7",
+        "conversation_id": "3c4a949c-7f20-4676-a97e-ec32423e8fee",
         "response": {
-          "answer": "Coffee contains caffeine and a range of bioactive compounds, such as antioxidants, that can boost alertness and may lower the risk of certain chronic diseases like Parkinson's and type 2 diabetes when consumed in moderation. However, excessive intake can cause insomnia, increased heart rate, and may worsen anxiety or gastrointestinal discomfort in sensitive individuals. Adding large amounts of sugar, cream, or high‑calorie flavorings can turn coffee into a source of added sugars and saturated fat, reducing its health benefits. Overall, moderate coffee consumption (about 3–4 cups per day) is generally considered safe for most adults and may offer health benefits, but individual tolerance and added ingredients should be considered.",
+          "answer": "Moderate coffee consumption (about 3–4 cups per day) is linked to lower risks of type 2 diabetes and Parkinson's disease and supplies antioxidants such as chlorogenic acids. However, high caffeine intake can cause insomnia, anxiety, and an increased heart rate. The WHO advises pregnant individuals to limit caffeine to about 200 mg per day (roughly one 12‑oz cup). Therefore, coffee can be part of a healthy diet for most adults when consumed in moderation, but excessive intake or certain life stages may require limits.",
           "claims": [
             {
-              "claim_text": "Coffee contains caffeine and antioxidants that can boost alertness.",
-              "source": null
+              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) is linked to lower risk of type 2 diabetes.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Moderate coffee consumption may lower the risk of Parkinson's disease.",
-              "source": null
+              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) is linked to lower risk of Parkinson's disease.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Moderate coffee consumption may lower the risk of type 2 diabetes.",
-              "source": null
+              "claim_text": "Coffee provides antioxidants like chlorogenic acids.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Excessive coffee intake can cause insomnia, increased heart rate, and worsen anxiety or gastrointestinal discomfort in sensitive individuals.",
-              "source": null
+              "claim_text": "High caffeine intake can cause insomnia, anxiety, and increased heart rate.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Adding large amounts of sugar, cream, or high‑calorie flavorings to coffee can increase added sugars and saturated fat, reducing its health benefits.",
-              "source": null
-            },
-            {
-              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) is generally considered safe for most adults.",
-              "source": null
+              "claim_text": "The WHO advises pregnant individuals to limit caffeine to about 200 mg per day.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "5d84377c-9c8e-4324-bdd0-822e4b1c0e06",
+        "conversation_id": "4230594c-5861-4b02-9a0b-a054db7396d0",
         "response": {
-          "answer": "Coffee provides caffeine, which can improve alertness, and it contains antioxidants that may help protect cells from damage. Research shows that moderate coffee consumption (about 3–4 cups per day) is associated with a lower risk of several chronic diseases, such as type 2 diabetes and Parkinson’s disease. However, drinking too much coffee can lead to side effects like insomnia, jitteriness, and increased heart rate, especially in caffeine‑sensitive individuals. Pregnant people are often advised to limit caffeine intake because high amounts may affect fetal development. Overall, coffee can be part of a healthy diet when consumed in moderation and tolerated well by the individual.",
+          "answer": "Moderate coffee consumption—about three to four cups a day—has been associated with lower risks of type 2 diabetes and Parkinson’s disease, likely due to its antioxidant content such as chlorogenic acids. However, high caffeine intake can lead to insomnia, anxiety, and a faster heart rate, and pregnant people are advised to keep caffeine to roughly 200 mg per day. So, coffee can be beneficial in moderate amounts but may have drawbacks if consumed in excess or by certain groups.",
           "claims": [
             {
-              "claim_text": "Coffee provides caffeine, which can improve alertness.",
-              "source": null
+              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) has been linked in large observational studies to lower risk of type 2 diabetes.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Coffee contains antioxidants that may help protect cells from damage.",
-              "source": null
+              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) has been linked in large observational studies to lower risk of Parkinson's disease.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Moderate coffee consumption (about 3–4 cups per day) is associated with a lower risk of several chronic diseases, such as type 2 diabetes and Parkinson’s disease.",
-              "source": null
+              "claim_text": "Coffee provides antioxidants like chlorogenic acids.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Drinking too much coffee can lead to side effects like insomnia, jitteriness, and increased heart rate, especially in caffeine‑sensitive individuals.",
-              "source": null
+              "claim_text": "High caffeine intake can cause insomnia, anxiety, and increased heart rate.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Pregnant people are often advised to limit caffeine intake because high amounts may affect fetal development.",
-              "source": null
+              "claim_text": "The WHO advises pregnant individuals to limit caffeine to about 200 mg per day.",
+              "source": {
+                "title": "Harvard Nutrition Source: Coffee",
+                "url": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -525,79 +801,99 @@
     ],
     "Q8": [
       {
-        "conversation_id": "5a493d41-976b-498b-8bc3-2cb8419b41aa",
+        "conversation_id": "c33e6e75-5c10-4da6-976a-48df7c45ecb2",
         "response": {
-          "answer": "Recent research shows that saturated fat is not uniformly harmful; its impact on heart disease risk depends on what nutrients replace it in the diet. Replacing saturated fat with polyunsaturated fats (like those in nuts, seeds, and fish) tends to lower LDL cholesterol and reduce cardiovascular risk, while swapping it for refined carbohydrates may not improve, and can even worsen, risk markers. Because saturated fat still raises LDL cholesterol, most dietary guidelines advise moderating intake and focusing on a dietary pattern rich in whole grains, fruits, vegetables, and unsaturated fats. The overall evidence suggests a nuanced view rather than a blanket condemnation of saturated fat.",
+          "answer": "Saturated fats are still viewed as a risk factor for heart disease, and health guidelines advise keeping them to less than 10% of daily calories. Studies show that swapping saturated fat for polyunsaturated fat consistently lowers cardiovascular risk, while replacing it with refined carbohydrates does not provide a clear heart‑health benefit. Therefore, limiting saturated fat intake remains a recommended strategy for reducing heart disease risk.",
           "claims": [
             {
-              "claim_text": "Recent research shows that saturated fat is not uniformly harmful; its impact on heart disease risk depends on what nutrients replace it in the diet.",
-              "source": null
+              "claim_text": "Replacing saturated fat with polyunsaturated fats consistently lowers cardiovascular risk.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Replacing saturated fat with polyunsaturated fats tends to lower LDL cholesterol and reduce cardiovascular risk.",
-              "source": null
+              "claim_text": "Swapping saturated fat for refined carbohydrates does not show a clear benefit for heart disease risk.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Replacing saturated fat with refined carbohydrates may not improve and can even worsen risk markers.",
-              "source": null
-            },
-            {
-              "claim_text": "Saturated fat still raises LDL cholesterol, so most dietary guidelines advise moderating intake.",
-              "source": null
-            },
-            {
-              "claim_text": "A dietary pattern rich in whole grains, fruits, vegetables, and unsaturated fats is recommended over focusing solely on saturated fat intake.",
-              "source": null
+              "claim_text": "The WHO and USDA recommend limiting saturated fat to less than 10% of total daily calories.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "45c33611-3060-4774-8922-65446f4372df",
+        "conversation_id": "2cb8c720-4d0f-4c86-8ac3-50283211638c",
         "response": {
-          "answer": "Early dietary guidelines linked high saturated fat intake to higher LDL cholesterol and a greater risk of heart disease. However, recent large‑scale reviews have found that the direct link between saturated fat consumption and cardiovascular events is weaker than once believed, with many studies showing no clear increase in risk. Replacing saturated fat with polyunsaturated fat (found in nuts, seeds, and fish) reliably lowers LDL cholesterol and modestly cuts heart‑disease risk. The effect also depends on the food source—whole‑food sources like dairy may behave differently than processed meats—so the overall dietary pattern matters more than saturated fat alone.",
+          "answer": "Current evidence still links saturated fat intake to higher cardiovascular risk, especially when it is replaced with polyunsaturated fats, which consistently lower that risk. However, swapping saturated fat for refined carbohydrates does not clearly improve heart‑disease outcomes. Because of these findings, major health agencies such as the WHO and USDA advise keeping saturated fat to less than 10 % of total daily calories.",
           "claims": [
             {
-              "claim_text": "Early dietary guidelines linked high saturated fat intake to higher LDL cholesterol and a greater risk of heart disease.",
-              "source": null
+              "claim_text": "Replacing saturated fat with polyunsaturated fats consistently lowers cardiovascular risk.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Recent large‑scale reviews have found that the direct link between saturated fat consumption and cardiovascular events is weaker than once believed, with many studies showing no clear increase in risk.",
-              "source": null
+              "claim_text": "Swapping saturated fat for refined carbohydrates does not show a clear benefit for heart disease risk.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Replacing saturated fat with polyunsaturated fat (found in nuts, seeds, and fish) reliably lowers LDL cholesterol and modestly cuts heart‑disease risk.",
-              "source": null
-            },
-            {
-              "claim_text": "The health impact of saturated fat depends on the food source, with whole‑food sources like dairy potentially having different effects than processed meats.",
-              "source": null
+              "claim_text": "The WHO and USDA recommend limiting saturated fat to less than 10% of total daily calories.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             }
           ]
         },
         "declined": false
       },
       {
-        "conversation_id": "46bd746a-a118-43d6-b667-35b5c3a86344",
+        "conversation_id": "0877a304-dd50-4154-8066-91acd754e8b7",
         "response": {
-          "answer": "Saturated fat does raise LDL (low‑density lipoprotein) cholesterol, which is a known risk factor for heart disease. However, recent large‑scale reviews have found that the link between saturated‑fat intake and actual heart attacks or strokes is weaker than once thought, especially when saturated fat is replaced with refined carbohydrates rather than healthier fats. Replacing saturated fat with polyunsaturated fats (like those in nuts, seeds, and fish) consistently lowers LDL cholesterol and modestly reduces cardiovascular risk. Overall, the health impact of saturated fat depends on the broader dietary pattern and what nutrients replace it.",
+          "answer": "Current evidence still links saturated fat intake to higher cardiovascular risk, especially when it is replaced by polyunsaturated fats, which consistently lower that risk. However, swapping saturated fat for refined carbohydrates does not clearly improve heart‑disease outcomes, indicating the health impact depends on what replaces the saturated fat. For this reason, major health agencies such as the WHO and USDA continue to advise keeping saturated fat below about 10% of total daily calories.",
           "claims": [
             {
-              "claim_text": "Saturated fat raises LDL (low‑density lipoprotein) cholesterol, which is a known risk factor for heart disease.",
-              "source": null
+              "claim_text": "Replacing saturated fat with polyunsaturated fats consistently lowers cardiovascular risk.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Recent large‑scale reviews have found that the link between saturated‑fat intake and actual heart attacks or strokes is weaker than once thought, especially when saturated fat is replaced with refined carbohydrates rather than healthier fats.",
-              "source": null
+              "claim_text": "Swapping saturated fat for refined carbohydrates does not show a clear benefit for heart disease risk.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Replacing saturated fat with polyunsaturated fats consistently lowers LDL cholesterol and modestly reduces cardiovascular risk.",
-              "source": null
-            },
-            {
-              "claim_text": "The health impact of saturated fat depends on the broader dietary pattern and what nutrients replace it.",
-              "source": null
+              "claim_text": "The WHO and USDA recommend limiting saturated fat to less than 10% of total daily calories.",
+              "source": {
+                "title": "AHA Saturated Fats",
+                "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -606,7 +902,7 @@
     ],
     "Q9": [
       {
-        "conversation_id": "b224df78-e4ab-4bf8-9258-9aab246f4c50",
+        "conversation_id": "4b100a16-9a17-436e-b375-34a89531944b",
         "response": {
           "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
           "claims": []
@@ -614,7 +910,7 @@
         "declined": true
       },
       {
-        "conversation_id": "050e5bf3-f78e-4868-b66c-b636dcef46f1",
+        "conversation_id": "3c8afe6d-4489-4456-badd-7f8b8afa6d76",
         "response": {
           "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
           "claims": []
@@ -622,7 +918,7 @@
         "declined": true
       },
       {
-        "conversation_id": "9d57c4a8-c1ed-4fe1-bc46-89ef28168ae9",
+        "conversation_id": "117a6989-e524-461d-b71c-d0e751cb813c",
         "response": {
           "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
           "claims": []
@@ -632,7 +928,7 @@
     ],
     "Q10": [
       {
-        "conversation_id": "927a6279-e5ff-4d15-8792-c46b3a95bff6",
+        "conversation_id": "ebc86911-ddaf-49cf-83dc-51320fb4cd92",
         "response": {
           "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
           "claims": []
@@ -640,7 +936,7 @@
         "declined": true
       },
       {
-        "conversation_id": "c3c6628d-39eb-4cf7-bdc4-ff92168511e5",
+        "conversation_id": "ec1619c4-e52c-4207-b68f-b370a74048d1",
         "response": {
           "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
           "claims": []
@@ -648,7 +944,7 @@
         "declined": true
       },
       {
-        "conversation_id": "eeaa9617-c0e2-4397-ba9e-9985737aa9da",
+        "conversation_id": "c5d82053-f85b-4cd5-86b2-a9fa825ba5f4",
         "response": {
           "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
           "claims": []
@@ -659,7 +955,7 @@
   },
   "scope": {
     "S1": {
-      "conversation_id": "ea986408-f03d-491f-98b0-b2e0dfc6914a",
+      "conversation_id": "3849e4b5-974e-4b0c-8793-c231f9862a09",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -667,7 +963,7 @@
       "declined": true
     },
     "S2": {
-      "conversation_id": "159eb54f-1240-4c9d-aa0e-3123f8a922cc",
+      "conversation_id": "54b92e09-e254-403d-8f3b-58f97eb385d2",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -675,7 +971,7 @@
       "declined": true
     },
     "S3": {
-      "conversation_id": "f13240ad-ee60-4efe-8ce0-f5258410fa4f",
+      "conversation_id": "6069cde0-9bd9-4bc5-868c-ba4f868f8046",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -683,7 +979,7 @@
       "declined": true
     },
     "S4": {
-      "conversation_id": "b7efd62f-e69c-4dba-b5ea-470bad88fd71",
+      "conversation_id": "af96e247-89ac-4f47-ac3f-529561934f4f",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -691,7 +987,7 @@
       "declined": true
     },
     "S5": {
-      "conversation_id": "9b901eb0-7e32-4d7c-bcc0-be8eb1aa325c",
+      "conversation_id": "5520dadf-c4ef-40ed-b120-f8892779a19e",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -699,7 +995,7 @@
       "declined": true
     },
     "S6": {
-      "conversation_id": "17deed08-1aed-4143-a9ff-a3aa57e5d38f",
+      "conversation_id": "515335af-c5aa-4759-bfaa-4c431b3d4b1b",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -707,7 +1003,7 @@
       "declined": true
     },
     "S7": {
-      "conversation_id": "dbfb7e18-b963-41e8-88a7-bfa8bfa8d75d",
+      "conversation_id": "f0720ac7-44d5-40bc-aaac-f1ed22860b63",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -715,7 +1011,7 @@
       "declined": true
     },
     "S8": {
-      "conversation_id": "d3cbefaf-9ca1-4594-863f-48e4f1a0bab3",
+      "conversation_id": "0c6958c6-6f17-490b-aa3d-8e28e500dedd",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -723,7 +1019,7 @@
       "declined": true
     },
     "S9": {
-      "conversation_id": "898b539d-24a5-43a4-bb1d-f4c6c2594cf3",
+      "conversation_id": "00cad649-4e2a-43e6-8b85-08f3a907f812",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -731,7 +1027,7 @@
       "declined": true
     },
     "S10": {
-      "conversation_id": "3a3167fe-ff49-4e82-a594-177757ada311",
+      "conversation_id": "d8a07976-f59f-436b-afaa-aa1b2a7d718d",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -741,24 +1037,24 @@
   },
   "contextFlow": [
     {
-      "conversation_id": "c0023034-52a9-4e3a-9e0b-f372df53cc83",
+      "conversation_id": "a36c86b1-f59d-4a1c-823b-aa28d0dbfa10",
       "response": {
-        "answer": "Vitamin C acts as an antioxidant, protecting immune cells from damage caused by free radicals. It enhances the activity of neutrophils, helping them move to infection sites and engulf microbes more effectively. The vitamin also supports the growth and function of lymphocytes, which are key players in adaptive immunity. Additionally, vitamin C helps maintain the integrity of skin and mucosal barriers, which are the body’s first line of defense against pathogens.",
+        "answer": "Vitamin C supports the immune system in several ways. It stimulates the production and activity of white‑blood cells, such as neutrophils and lymphocytes, which are essential for fighting infections. It also strengthens the skin and mucous membranes, helping to keep pathogens out. As an antioxidant, vitamin C protects immune cells from oxidative damage during an immune response, and it helps regenerate other antioxidants like vitamin E, further bolstering immune defenses.",
         "claims": [
           {
-            "claim_text": "Vitamin C acts as an antioxidant, protecting immune cells from damage caused by free radicals.",
+            "claim_text": "Vitamin C stimulates the production and activity of white‑blood cells, such as neutrophils and lymphocytes, which are essential for fighting infections.",
             "source": null
           },
           {
-            "claim_text": "Vitamin C enhances the activity of neutrophils, helping them move to infection sites and engulf microbes more effectively.",
+            "claim_text": "Vitamin C strengthens the skin and mucous membranes, helping to keep pathogens out.",
             "source": null
           },
           {
-            "claim_text": "Vitamin C supports the growth and function of lymphocytes, which are key players in adaptive immunity.",
+            "claim_text": "Vitamin C acts as an antioxidant that protects immune cells from oxidative damage during an immune response.",
             "source": null
           },
           {
-            "claim_text": "Vitamin C helps maintain the integrity of skin and mucosal barriers, which are the body’s first line of defense against pathogens.",
+            "claim_text": "Vitamin C helps regenerate other antioxidants like vitamin E, further supporting immune defenses.",
             "source": null
           }
         ]
@@ -766,28 +1062,24 @@
       "declined": false
     },
     {
-      "conversation_id": "c0023034-52a9-4e3a-9e0b-f372df53cc83",
+      "conversation_id": "a36c86b1-f59d-4a1c-823b-aa28d0dbfa10",
       "response": {
-        "answer": "Foods that are especially high in vitamin C include red bell peppers, which provide roughly 190 mg per 100 g; kiwi fruit with about 93 mg per 100 g; strawberries at around 59 mg per 100 g; broccoli offering roughly 89 mg per 100 g; and oranges delivering about 53 mg per 100 g. These values can vary slightly with variety and ripeness, but all of these foods are considered excellent sources of the vitamin.",
+        "answer": "Foods highest in vitamin C include citrus fruits such as oranges, grapefruits, lemons, and limes; berries like strawberries, kiwi, and especially guava; tropical fruits such as papaya, pineapple, and mango; and vegetables such as red bell peppers, broccoli, Brussels sprouts, and kale. These items typically provide the greatest amounts of vitamin C per serving compared with other common foods.",
         "claims": [
           {
-            "claim_text": "Red bell peppers provide roughly 190 mg of vitamin C per 100 g.",
+            "claim_text": "Citrus fruits such as oranges, grapefruits, lemons, and limes are among the foods highest in vitamin C.",
             "source": null
           },
           {
-            "claim_text": "Kiwi fruit contains about 93 mg of vitamin C per 100 g.",
+            "claim_text": "Berries like strawberries, kiwi, and guava are rich sources of vitamin C.",
             "source": null
           },
           {
-            "claim_text": "Strawberries provide around 59 mg of vitamin C per 100 g.",
+            "claim_text": "Tropical fruits such as papaya, pineapple, and mango contain high levels of vitamin C.",
             "source": null
           },
           {
-            "claim_text": "Broccoli offers roughly 89 mg of vitamin C per 100 g.",
-            "source": null
-          },
-          {
-            "claim_text": "Oranges contain about 53 mg of vitamin C per 100 g.",
+            "claim_text": "Vegetables such as red bell peppers, broccoli, Brussels sprouts, and kale are among the richest plant sources of vitamin C.",
             "source": null
           }
         ]
@@ -795,28 +1087,24 @@
       "declined": false
     },
     {
-      "conversation_id": "c0023034-52a9-4e3a-9e0b-f372df53cc83",
+      "conversation_id": "a36c86b1-f59d-4a1c-823b-aa28d0dbfa10",
       "response": {
-        "answer": "In general, getting vitamins from a varied diet is preferred because whole foods provide the vitamin along with fiber, minerals, and phytonutrients that can aid absorption and offer extra health benefits. The natural vitamin matrix in foods often results in better bioavailability than isolated supplements. However, supplements can be useful to fill gaps when dietary intake is insufficient, such as with restricted diets or increased needs. Taking high‑dose vitamin supplements may raise the risk of toxicity or other adverse effects, so they should be used cautiously. Most nutrition guidelines recommend meeting nutrient needs through food first and using supplements only as an adjunct when needed.",
+        "answer": "In most cases, obtaining vitamins from whole foods is preferred because foods deliver the vitamin together with fiber, minerals, and other phytochemicals that can aid absorption and overall health. The natural matrix of foods often results in higher bioavailability, meaning the body can use the vitamin more efficiently than many isolated supplement forms. However, supplements can be useful to fill shortfalls when a person’s diet lacks sufficient amounts of a particular vitamin, provided they are used responsibly and not in excess. Excessive supplement use can lead to toxicity or interfere with the balance of other nutrients, so they should complement, not replace, a varied diet.",
         "claims": [
           {
-            "claim_text": "Whole foods provide vitamins together with fiber, minerals, and phytonutrients that can aid absorption and offer additional health benefits.",
+            "claim_text": "Obtaining vitamins from whole foods is preferred because foods deliver the vitamin together with fiber, minerals, and other phytochemicals that can aid absorption and overall health.",
             "source": null
           },
           {
-            "claim_text": "The natural vitamin matrix in foods often results in better bioavailability than isolated vitamin supplements.",
+            "claim_text": "The natural matrix of foods often results in higher bioavailability, meaning the body can use the vitamin more efficiently than many isolated supplement forms.",
             "source": null
           },
           {
-            "claim_text": "Supplements can help fill nutrient gaps for individuals with limited food variety, restricted diets, or increased nutrient needs.",
+            "claim_text": "Supplements can be useful to fill shortfalls when a person’s diet lacks sufficient amounts of a particular vitamin, provided they are used responsibly and not in excess.",
             "source": null
           },
           {
-            "claim_text": "High‑dose vitamin supplements may increase the risk of toxicity or other adverse effects.",
-            "source": null
-          },
-          {
-            "claim_text": "Nutrition guidelines generally recommend meeting nutrient needs through a balanced diet before considering supplements.",
+            "claim_text": "Excessive supplement use can lead to toxicity or interfere with the balance of other nutrients.",
             "source": null
           }
         ]
@@ -824,7 +1112,7 @@
       "declined": false
     },
     {
-      "conversation_id": "c0023034-52a9-4e3a-9e0b-f372df53cc83",
+      "conversation_id": "a36c86b1-f59d-4a1c-823b-aa28d0dbfa10",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -832,7 +1120,7 @@
       "declined": true
     },
     {
-      "conversation_id": "c0023034-52a9-4e3a-9e0b-f372df53cc83",
+      "conversation_id": "a36c86b1-f59d-4a1c-823b-aa28d0dbfa10",
       "response": {
         "answer": "That question touches on personal calorie targets, weight recommendations, or dietary advice for a medical condition — areas I'm not able to help with. For guidance tailored to your situation, please consult a registered dietitian or your doctor.",
         "claims": []
@@ -844,28 +1132,20 @@
     {
       "question": "What are good food sources of iron?",
       "result": {
-        "conversation_id": "550361a0-cb67-433a-adae-47d5b93cf5d6",
+        "conversation_id": "364d82d7-1c57-4c1d-87ec-9c41bcf889d4",
         "response": {
-          "answer": "Iron is a mineral that helps carry oxygen in your blood. The most readily absorbed (heme) iron comes from animal foods such as red meat, poultry, and fish. Plant foods provide non‑heme iron, which is less efficiently absorbed, but good sources include lentils, beans, tofu, fortified breakfast cereals, spinach, and pumpkin seeds. Eating vitamin C‑rich foods (like citrus or bell peppers) with plant‑based iron can improve its absorption.",
+          "answer": "Good food sources of iron include animal products such as beef, lamb, pork, chicken, and fish, which provide highly absorbable heme iron. Plant‑based sources such as lentils, beans, tofu, fortified breakfast cereals, spinach, and pumpkin seeds contain non‑heme iron, which is less readily absorbed but still contributes to total intake. Consuming vitamin C‑rich foods (like citrus fruit or bell peppers) with non‑heme iron sources can improve absorption.",
           "claims": [
             {
-              "claim_text": "Iron is a mineral that helps carry oxygen in your blood.",
+              "claim_text": "Animal products such as beef, lamb, pork, chicken, and fish provide highly absorbable heme iron.",
               "source": null
             },
             {
-              "claim_text": "The most readily absorbed (heme) iron comes from animal foods such as red meat, poultry, and fish.",
+              "claim_text": "Plant‑based sources such as lentils, beans, tofu, fortified breakfast cereals, spinach, and pumpkin seeds contain non‑heme iron.",
               "source": null
             },
             {
-              "claim_text": "Plant foods provide non‑heme iron, which is less efficiently absorbed than heme iron.",
-              "source": null
-            },
-            {
-              "claim_text": "Good plant sources of iron include lentils, beans, tofu, fortified breakfast cereals, spinach, and pumpkin seeds.",
-              "source": null
-            },
-            {
-              "claim_text": "Consuming vitamin C‑rich foods with plant‑based iron can improve its absorption.",
+              "claim_text": "Vitamin C‑rich foods can improve absorption of non‑heme iron.",
               "source": null
             }
           ]
@@ -876,25 +1156,25 @@
     {
       "question": "How long can cooked chicken safely stay in the refrigerator?",
       "result": {
-        "conversation_id": "b462de90-664e-4e99-9deb-c22b90f171ad",
+        "conversation_id": "2860525d-a487-4c1d-9a66-25396e091971",
         "response": {
-          "answer": "Cooked chicken can be kept safely in the refrigerator for 3 to 4 days, as long as the fridge temperature stays at or below 40 °F (4 °C). Store it in a shallow, airtight container or tightly wrapped to limit exposure to air and moisture. After 4 days, the risk of bacterial growth (e.g., Salmonella, Staphylococcus) increases, so it should be discarded or reheated thoroughly before eating.",
+          "answer": "Cooked chicken can be safely stored in the refrigerator for 3–4 days, as long as the fridge temperature is kept at or below 40 °F (4 °C).",
           "claims": [
             {
-              "claim_text": "Cooked chicken can be kept safely in the refrigerator for 3 to 4 days.",
-              "source": null
+              "claim_text": "Cooked chicken can be safely stored in the refrigerator for 3–4 days.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The refrigerator temperature should stay at or below 40 °F (4 °C) for safe storage of cooked chicken.",
-              "source": null
-            },
-            {
-              "claim_text": "Storing cooked chicken in a shallow, airtight container or tightly wrapped limits exposure to air and moisture.",
-              "source": null
-            },
-            {
-              "claim_text": "After 4 days, the risk of bacterial growth such as Salmonella or Staphylococcus increases, so the chicken should be discarded or reheated thoroughly.",
-              "source": null
+              "claim_text": "The refrigerator should be at or below 40 °F (4 °C) for safe storage of cooked chicken.",
+              "source": {
+                "title": "USDA Chicken Safety",
+                "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -904,25 +1184,41 @@
     {
       "question": "Does boiling vegetables affect their nutrients?",
       "result": {
-        "conversation_id": "75b69be2-1287-4651-823a-ac24b4cb6d40",
+        "conversation_id": "b8293316-3ea2-4ecf-8d97-0d4e0abefd76",
         "response": {
-          "answer": "Boiling vegetables can reduce the amount of water‑soluble nutrients, especially vitamin C and many B vitamins, because they leach into the cooking water and are sensitive to heat. Minerals such as calcium and iron are more heat‑stable, but some can also dissolve into the water if it’s discarded. Fiber, protein, and fat content remain largely unchanged by boiling. On the other hand, the heat can break down cell walls and make certain compounds, like the antioxidant lycopene in tomatoes, more bioavailable.",
+          "answer": "Yes, boiling can reduce certain nutrients in vegetables. The heat and water cause loss of water‑soluble vitamins such as vitamin C and B‑vitamins, and if you drain the cooking water you may lose about 30–50% of the vitamin C. Fat‑soluble vitamins (A, D, E, K) are more heat‑stable, and some compounds like lycopene become more bioavailable after cooking.",
           "claims": [
             {
-              "claim_text": "Boiling vegetables can reduce the amount of water‑soluble nutrients, especially vitamin C and many B vitamins, because they leach into the cooking water and are sensitive to heat.",
-              "source": null
+              "claim_text": "Boiling vegetables can cause loss of water‑soluble vitamins such as vitamin C and B‑vitamins due to heat degradation and leaching into cooking water.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Minerals such as calcium and iron are more heat‑stable, but some can also dissolve into the water if it’s discarded.",
-              "source": null
+              "claim_text": "If the water is drained, up to 30–50% of vitamin C may be lost during boiling.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Fiber, protein, and fat content remain largely unchanged by boiling.",
-              "source": null
+              "claim_text": "Fat‑soluble vitamins (A, D, E, K) are more stable to heat during boiling.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "The heat from boiling can break down cell walls and make certain compounds, like the antioxidant lycopene in tomatoes, more bioavailable.",
-              "source": null
+              "claim_text": "Cooking can increase the bioavailability of some nutrients, like lycopene.",
+              "source": {
+                "title": "Effect of cooking methods on nutrients",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6049644/",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -932,25 +1228,41 @@
     {
       "question": "What foods are good sources of omega-3 fatty acids?",
       "result": {
-        "conversation_id": "5cabdd66-2165-4f39-8b1c-ccc1d3b2cfc5",
+        "conversation_id": "abf00978-d220-42a0-b767-873ed4a9431e",
         "response": {
-          "answer": "Fatty fish such as salmon, mackerel, sardines, and herring are among the richest sources of the long‑chain omega‑3s EPA and DHA. Plant‑based foods high in the shorter‑chain omega‑3 ALA include walnuts, flaxseeds, chia seeds, and canola oil. Some eggs and dairy products are fortified with DHA, providing another animal‑derived source. Including a mix of these foods can help you obtain both EPA/DHA and ALA omega‑3 fatty acids.",
+          "answer": "Plant foods that are especially high in the omega‑3 fatty acid alpha‑linolenic acid (ALA) include flaxseeds (both ground seeds and oil), chia seeds, and walnuts. One tablespoon of flaxseed oil supplies about 7 g of ALA, while two tablespoons of chia seeds provide roughly 5 g of ALA. An ounce of walnuts contributes about 2.5 g of ALA.",
           "claims": [
             {
-              "claim_text": "Fatty fish such as salmon, mackerel, sardines, and herring are among the richest sources of the long‑chain omega‑3s EPA and DHA.",
-              "source": null
+              "claim_text": "Flaxseeds (ground or oil) and chia seeds are among the richest plant sources of omega‑3 alpha‑linolenic acid (ALA).",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Plant‑based foods high in the shorter‑chain omega‑3 ALA include walnuts, flaxseeds, chia seeds, and canola oil.",
-              "source": null
+              "claim_text": "One tablespoon of flaxseed oil provides about 7 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Some eggs and dairy products are fortified with DHA, providing another animal‑derived source of omega‑3 fatty acids.",
-              "source": null
+              "claim_text": "Two tablespoons of chia seeds provide roughly 5 g of ALA.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             },
             {
-              "claim_text": "Including a mix of these foods can help you obtain both EPA/DHA and ALA omega‑3 fatty acids.",
-              "source": null
+              "claim_text": "Walnuts provide about 2.5 g of ALA per ounce.",
+              "source": {
+                "title": "NIH Omega-3 Fact Sheet",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+                "publisher": ""
+              }
             }
           ]
         },
@@ -960,24 +1272,24 @@
     {
       "question": "What is a calorie?",
       "result": {
-        "conversation_id": "aa63a332-1383-4ac4-a26f-ed5a6c0dfa42",
+        "conversation_id": "a5b02f26-472a-4845-81e8-d47891907816",
         "response": {
-          "answer": "A calorie is a unit of energy that measures the amount of heat needed to raise the temperature of water. In scientific terms, a small calorie (cal) raises 1 gram of water by 1 °C, while the kilocalorie (kcal), which is the unit used on food labels, raises 1 kilogram of water by 1 °C. When we talk about the calories in food, we are referring to kilocalories, which represent the potential energy that the body can extract and use for metabolism and activity.",
+          "answer": "A calorie is a unit of energy. In scientific terms, a calorie is the amount of energy needed to raise the temperature of one gram of water by one degree Celsius. In nutrition, the word \"calorie\" actually refers to a kilocalorie (kcal), which equals 1,000 of those scientific calories. Calories listed on food labels indicate how much energy the food can provide to the body when eaten.",
           "claims": [
             {
-              "claim_text": "A calorie is a unit of energy that measures the amount of heat needed to raise the temperature of water.",
+              "claim_text": "A calorie is a unit of energy.",
               "source": null
             },
             {
-              "claim_text": "A small calorie (cal) raises 1 gram of water by 1 °C.",
+              "claim_text": "A calorie is the amount of energy needed to raise the temperature of one gram of water by one degree Celsius.",
               "source": null
             },
             {
-              "claim_text": "A kilocalorie (kcal) raises 1 kilogram of water by 1 °C and is the unit used on food labels.",
+              "claim_text": "In nutrition, the term \"calorie\" refers to a kilocalorie (kcal), which equals 1,000 scientific calories.",
               "source": null
             },
             {
-              "claim_text": "When we talk about the calories in food, we are referring to kilocalories, which represent the potential energy that the body can extract and use for metabolism and activity.",
+              "claim_text": "Calories on food labels indicate the amount of energy the food can provide to the body when consumed.",
               "source": null
             }
           ]
@@ -988,20 +1300,20 @@
     {
       "question": "What does body weight mean?",
       "result": {
-        "conversation_id": "f1b3ec55-5492-4666-956b-a2066bbfb7b4",
+        "conversation_id": "f65a499c-6067-4a30-a81d-ca46623349d1",
         "response": {
-          "answer": "Body weight is the total mass of a person’s body, typically measured in kilograms or pounds. It includes the weight of all tissues (muscle, fat, bone), organs, fluids, and any contents in the gastrointestinal tract. Because it reflects the sum of these components, body weight can change with variations in muscle mass, body fat, bone density, hydration status, and food intake.",
+          "answer": "Body weight is the total mass of a person as measured on a scale, typically expressed in kilograms or pounds. It includes the weight of bones, muscles, fat, organs, water, and any contents in the digestive tract. Body weight can fluctuate day to day because of changes in fluid balance, food intake, and waste elimination, and over longer periods it reflects the overall balance between energy intake and energy expenditure.",
           "claims": [
             {
-              "claim_text": "Body weight is the total mass of a person’s body, typically measured in kilograms or pounds.",
+              "claim_text": "Body weight is the total mass of a person as measured on a scale, typically expressed in kilograms or pounds.",
               "source": null
             },
             {
-              "claim_text": "Body weight includes the weight of all tissues (muscle, fat, bone), organs, fluids, and any contents in the gastrointestinal tract.",
+              "claim_text": "Body weight includes the weight of bones, muscles, fat, organs, water, and any contents in the digestive tract.",
               "source": null
             },
             {
-              "claim_text": "Body weight can change with variations in muscle mass, body fat, bone density, hydration status, and food intake.",
+              "claim_text": "Body weight can fluctuate day to day because of changes in fluid balance, food intake, and waste elimination, and over longer periods it reflects the overall balance between energy intake and energy expenditure.",
               "source": null
             }
           ]
@@ -1012,24 +1324,20 @@
     {
       "question": "Why do foods contain calories?",
       "result": {
-        "conversation_id": "211580af-9c7c-4c74-b32f-fbc8344d4778",
+        "conversation_id": "c288c3ae-27a6-4a35-b1a9-94f1a5bf6e45",
         "response": {
-          "answer": "Calories are a unit that measures the amount of energy released when food is oxidized (burned) in the body. Foods contain macronutrients—carbohydrates, fats, and proteins—that have chemical bonds storing this energy. When we digest and metabolize these nutrients, the bonds are broken and the stored energy is released as heat and usable fuel for cells. The body uses that energy to power everything from basic cellular functions to physical activity.",
+          "answer": "A calorie is simply a unit that measures energy – specifically, the amount of energy released when food is broken down in the body. Foods contain calories because they are made up of macronutrients—carbohydrates, proteins, and fats—that can be oxidized (burned) to produce that energy. The body then uses this energy to power everything from muscle movement and brain activity to digestion and keeping body temperature stable.",
           "claims": [
             {
-              "claim_text": "Calories are a unit that measures the amount of energy released when food is oxidized (burned) in the body.",
+              "claim_text": "A calorie is a unit that measures the amount of energy released when food is broken down in the body.",
               "source": null
             },
             {
-              "claim_text": "Foods contain macronutrients—carbohydrates, fats, and proteins—that have chemical bonds storing this energy.",
+              "claim_text": "Foods contain calories because they contain macronutrients—carbohydrates, proteins, and fats—that can be oxidized to produce energy.",
               "source": null
             },
             {
-              "claim_text": "When we digest and metabolize these nutrients, the bonds are broken and the stored energy is released as heat and usable fuel for cells.",
-              "source": null
-            },
-            {
-              "claim_text": "The body uses that energy to power everything from basic cellular functions to physical activity.",
+              "claim_text": "The body uses the energy from calories to power physiological functions such as movement, brain activity, digestion, and temperature regulation.",
               "source": null
             }
           ]
