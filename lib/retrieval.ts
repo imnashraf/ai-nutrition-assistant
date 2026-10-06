@@ -44,10 +44,18 @@ export async function retrieveContext(query: string): Promise<{ contextStr: stri
           `<document title="${doc.metadata?.title || "Unknown"}" url="${doc.metadata?.url || doc.metadata?.source || ""}" publisher="${doc.metadata?.publisher || ""}">\n${
             doc.content
           }\n</document>`
-      )
+      ).join("\n\n");
+    const getValidUrl = (u: any) => {
+      try {
+        return new URL(u).toString();
+      } catch {
+        return "https://nutrition-assistant.local/unknown";
+      }
+    };
+
     const rawSources = data.map((doc: any) => ({
       title: doc.metadata?.title || "Unknown",
-      url: doc.metadata?.url || doc.metadata?.source || "",
+      url: getValidUrl(doc.metadata?.url || doc.metadata?.source),
       publisher: doc.metadata?.publisher || "",
     }));
 
